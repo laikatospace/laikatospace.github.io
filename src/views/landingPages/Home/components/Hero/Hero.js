@@ -79,22 +79,6 @@ const Hero = () => {
             >
               Buy Now
             </Button>
-            <Box
-              marginTop={{ xs: 2, sm: 0 }}
-              marginLeft={{ sm: 2 }}
-              width={{ xs: '100%', md: 'auto' }}
-            >
-              <Button
-                component={'a'}
-                href={'/docs-introduction'}
-                variant="outlined"
-                color="primary"
-                size="large"
-                fullWidth={isMd ? false : true}
-              >
-                Learn More
-              </Button>
-            </Box>
           </Box>
           <Box display="flex" justifyContent={{ xs: 'center', md: 'flex-start'}} width={{ xs: '100%', md: 'auto' }}>
             <span><a href={links.telegramLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={telegram}/></a></span>

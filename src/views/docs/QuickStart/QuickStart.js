@@ -80,7 +80,6 @@ const QuickStart = () => {
               href={'https://yarnpkg.com/'}
               target={'blank'}
             >
-              yarn
             </Link>
             . But you can use also{' '}
             <Link

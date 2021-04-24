@@ -325,15 +325,9 @@ const Numbers = () => {
               suffix: '%',
             },
             {
-              title: 49.99,
+              title: 50,
               subtitle:
-                '49.99% is auto-injected into the liquidity pool on PancakeSwap - creating a price floor for our doggo rocket.',
-              suffix: '%',
-            },
-            {
-              title: 0.01,
-              subtitle:
-                '0.01% of the tax fee is set aside for development costs such as marketing, cross-bridging support, listings, etc. This ensures that any funding coming in has no effect on the price of the token, and greatly reduces the total amount needed to be held in developer wallets.',
+                '50% is auto-injected into the liquidity pool on PancakeSwap - creating a price floor for our doggo rocket.',
               suffix: '%',
             },
           ].map((item, i) => (
@@ -342,13 +336,13 @@ const Numbers = () => {
               key={i}
               item
               xs={12}
-              md={4}
+              md={6}
               borderLeft={
                 i === 1 && isMd ? `1px solid ${theme.palette.divider}` : 0
               }
-              borderRight={
-                i === 1 && isMd ? `1px solid ${theme.palette.divider}` : 0
-              }
+              // borderRight={
+              //   i === 1 && isMd ? `1px solid ${theme.palette.divider}` : 0
+              // }
               borderTop={
                 i === 1 && !isMd ? `1px solid ${theme.palette.divider}` : 0
               }

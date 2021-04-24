@@ -4,7 +4,7 @@ import { light as lightIndigo, dark as darkIndigo } from './palette--indigo';
 import { light as lightPink, dark as darkPink } from './palette--pink';
 import { light as lightOrange, dark as darkOrange } from './palette--orange';
 
-const palette = (themeMode = 'light', paletteType = 'green') => {
+const palette = (themeMode = 'dark', paletteType = 'pink') => {
   if (paletteType === 'blue') {
     return themeMode === 'dark' ? darkBlue : lightBlue;
   } else if (paletteType === 'indigo') {

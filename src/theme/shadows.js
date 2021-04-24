@@ -1,5 +1,5 @@
 import { alpha } from '@material-ui/core/styles';
-const shadows = (themeMode = 'light') => {
+const shadows = (themeMode = 'dark') => {
   let rgb = themeMode === 'light' ? '#8c98a4' : '#000000';
 
   return [

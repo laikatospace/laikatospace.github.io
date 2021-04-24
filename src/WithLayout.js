@@ -29,9 +29,9 @@ export const useDarkMode = () => {
 
   useEffect(() => {
     const localTheme = window.localStorage.getItem('themeMode');
-    localTheme ? setTheme(localTheme) : setMode('light');
+    localTheme ? setTheme(localTheme) : setMode('dark');
     const localPalette = window.localStorage.getItem('themePalette');
-    localPalette ? setPalette(localPalette) : setThemePalette('green');
+    localPalette ? setPalette(localPalette) : setThemePalette('pink');
     setMountedComponent(true);
   }, []);
 

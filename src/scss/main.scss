@@ -1,0 +1,29 @@
+.socialButtonStyle {
+  width: calc(min(10vw, 30px));
+  margin: calc(min(1vw, 10px));
+  margin-top: 3vh !important;
+  transition: ease-out 0.5s transform;
+  fill: blue;
+}
+
+.socialButtonStyle:hover {
+  transform: scale(1.2);
+  transition: ease-out 0.5s transform;
+}
+
+.laikaLogo {
+  height: 100%;
+}
+
+.laikaLogoFooter {
+  height: 100%;
+}
+
+
+@media (max-width: 600px) {
+  /*Mobile View */
+  .socialButtonStyle {
+    width: 10vw;
+    margin: auto 2vw;
+  }
+}

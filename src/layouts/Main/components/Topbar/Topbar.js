@@ -8,7 +8,7 @@ import { useTheme } from '@material-ui/core/styles';
 import { colors } from '@material-ui/core';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import laikaLogo from 'images/laikacoin.png';
+import laikaLogo from 'images/laikadope.png';
 import paletteTypes from 'common/paletteTypes';
 import whitepaper from 'common/whitepaper.pdf';
 import * as links from 'common/Links.js';
@@ -41,52 +41,51 @@ const Topbar = ({
           href="/"
           title="webbee"
           height={{ xs: 28, md: 32 }}
-          width={45}
         >
           <img src={laikaLogo} className="laikaLogo"/>
         </Box>
         <b>Laika Protocol</b>
       </Box>
       <Box display="flex" alignItems={'center'}>
-        <Box
-          display={'flex'}
-          padding={1}
-          marginRight={1}
-          borderRadius={8}
-          bgcolor={theme.palette.alternate.main}
-        >
-          {paletteTypes.map((item, i) => (
-            <Box
-              key={item}
-              bgcolor={colors[item][700]}
-              width={20}
-              height={20}
-              borderRadius={'100%'}
-              marginRight={i === paletteTypes.length - 1 ? 0 : 1}
-              display={'flex'}
-              justifyContent={'center'}
-              alignItems={'center'}
-              sx={{ cursor: 'pointer' }}
-              onClick={() => setThemePalette(item)}
-            >
-              {paletteType === item && (
-                <svg
-                  width={12}
-                  height={12}
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              )}
-            </Box>
-          ))}
-        </Box>
+        {/*<Box*/}
+        {/*  display={'flex'}*/}
+        {/*  padding={1}*/}
+        {/*  marginRight={1}*/}
+        {/*  borderRadius={8}*/}
+        {/*  bgcolor={theme.palette.alternate.main}*/}
+        {/*>*/}
+        {/*  {paletteTypes.map((item, i) => (*/}
+        {/*    <Box*/}
+        {/*      key={item}*/}
+        {/*      bgcolor={colors[item][700]}*/}
+        {/*      width={20}*/}
+        {/*      height={20}*/}
+        {/*      borderRadius={'100%'}*/}
+        {/*      marginRight={i === paletteTypes.length - 1 ? 0 : 1}*/}
+        {/*      display={'flex'}*/}
+        {/*      justifyContent={'center'}*/}
+        {/*      alignItems={'center'}*/}
+        {/*      sx={{ cursor: 'pointer' }}*/}
+        {/*      onClick={() => setThemePalette(item)}*/}
+        {/*    >*/}
+        {/*      {paletteType === item && (*/}
+        {/*        <svg*/}
+        {/*          width={12}*/}
+        {/*          height={12}*/}
+        {/*          xmlns="http://www.w3.org/2000/svg"*/}
+        {/*          viewBox="0 0 20 20"*/}
+        {/*          fill="currentColor"*/}
+        {/*        >*/}
+        {/*          <path*/}
+        {/*            fillRule="evenodd"*/}
+        {/*            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"*/}
+        {/*            clipRule="evenodd"*/}
+        {/*          />*/}
+        {/*        </svg>*/}
+        {/*      )}*/}
+        {/*    </Box>*/}
+        {/*  ))}*/}
+        {/*</Box>*/}
         <Hidden mdDown>
           <Box>
             <Link underline="none" component="a" href="/" color="textPrimary">

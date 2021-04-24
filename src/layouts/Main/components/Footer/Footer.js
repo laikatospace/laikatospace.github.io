@@ -4,7 +4,7 @@ import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
-import laikaLogo from 'images/laikacoin.png';
+import laikaLogo from 'images/laikadope.png';
 import whitepaper from 'common/whitepaper.pdf';
 import * as links from 'common/Links.js';
 import 'scss/main.scss';

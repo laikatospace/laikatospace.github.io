@@ -6,7 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
-import laika from '../../../../../images/laikadope.png';
+import laika from '../../../../../images/laikacoin.png';
 
 const Features = () => {
   const theme = useTheme();

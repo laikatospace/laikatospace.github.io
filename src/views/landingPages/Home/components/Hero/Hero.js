@@ -85,8 +85,8 @@ const Hero = () => {
             <span><a href={links.twitterLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={twitter}/></a></span>
             <span><a href={links.githubLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={github}/></a></span>
             <span><a href={links.bscLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={bscscan}/></a></span>
-            <span><a href={links.mediumLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={medium}/></a></span>
-            <span><a href={links.redditLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={reddit}/></a></span>
+            {/*<span><a href={links.mediumLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={medium}/></a></span>*/}
+            {/*<span><a href={links.redditLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={reddit}/></a></span>*/}
           </Box>
         </Box>
       </Grid>

@@ -1,30 +1,30 @@
 export const pages = [
-  {
-    title: 'Learn More About Laika',
-    id: 'landing-pages',
-    pages: [
-      {
-        title: 'About Us',
-        href: '#highlights',
-      },
-      {
-        title: 'Features',
-        href: '../#features',
-      },
-      {
-        title: 'Tokenomics',
-        href: '../#tokenomics',
-      },
-      {
-        title: 'Roadmap',
-        href: '../#roadmap',
-      },
-      {
-        title: 'Get Started',
-        href: '../#getstarted',
-      },
-    ],
-  },
+  // {
+  //   title: 'Learn More About Laika',
+  //   id: 'landing-pages',
+  //   pages: [
+  //     {
+  //       title: 'About Us',
+  //       href: '#highlights',
+  //     },
+  //     {
+  //       title: 'Features',
+  //       href: '../#features',
+  //     },
+  //     {
+  //       title: 'Tokenomics',
+  //       href: '../#tokenomics',
+  //     },
+  //     {
+  //       title: 'Roadmap',
+  //       href: '../#roadmap',
+  //     },
+  //     {
+  //       title: 'Get Started',
+  //       href: '../#getstarted',
+  //     },
+  //   ],
+  // },
   {
     title: 'Socials',
     id: 'socials',

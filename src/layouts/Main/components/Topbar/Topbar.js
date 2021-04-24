@@ -39,7 +39,6 @@ const Topbar = ({
           component="a"
           underline="none"
           href="/"
-          title="webbee"
           height={{ xs: 28, md: 32 }}
         >
           <img src={laikaLogo} className="laikaLogo"/>

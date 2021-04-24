@@ -306,7 +306,7 @@ const Numbers = () => {
         <CardContent>
           <Typography variant="h4" gutterBottom>
             <Box fontWeight={600} display="flex" justifyContent="center">
-                Our custom rocket fuel recipe: one transaction fee, three parts.
+                Our custom rocket fuel recipe: one transaction fee, two parts.
             </Box>
           </Typography>
         </CardContent>

@@ -142,7 +142,7 @@ const Roadmap = () => {
                             width={10}
                             height={10}
                             borderRadius={'100%'}
-                            bgcolor={theme.palette.primary.main}
+                            bgcolor={item.color ? item.color : theme.palette.primary.main}
                             marginRight={2}
                         />
                         <Box>
@@ -182,7 +182,7 @@ const Roadmap = () => {
                             width={10}
                             height={10}
                             borderRadius={'100%'}
-                            bgcolor={item.color ?  item.color : theme.palette.primary.main}
+                            bgcolor={item.color ? item.color : theme.palette.primary.main}
                             marginRight={i % 2 !== 1 ? 5 : 0}
                             marginLeft={i % 2 === 1 ? 5 : 0}
                         />

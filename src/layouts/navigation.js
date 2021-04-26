@@ -31,24 +31,24 @@ export const pages = [
     pages: [
       {
         title: 'Telegram',
-        href: 'https://t.me/laikaprototcol',
+        href: 'https://t.me/laikaprotocol',
       },
       {
         title: 'Twitter',
         href: 'https://twitter.com/laikaprotocol',
       },
-      {
-        title: 'Discord',
-        href: 'https://discord.com',
-      },
-      {
-        title: 'Medium',
-        href: 'https://medium.com',
-      },
-      {
-        title: 'Reddit',
-        href: 'https://reddit.com',
-      },
+      // {
+      //   title: 'Discord',
+      //   href: 'https://discord.com',
+      // },
+      // {
+      //   title: 'Medium',
+      //   href: 'https://medium.com',
+      // },
+      // {
+      //   title: 'Reddit',
+      //   href: 'https://reddit.com',
+      // },
     ],
   }
 ];

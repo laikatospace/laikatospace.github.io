@@ -54,8 +54,14 @@ const Roadmap = () => {
             title: 'Launch Contest',
         },
         {
-            date: 'TBA',
+            date: 'Completed',
+            color: '#32cd80',
             title: 'Poocoin Marketing',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Blockfolio Listing',
         },
         {
             date: 'TBA',

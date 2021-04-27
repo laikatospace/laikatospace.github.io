@@ -46,11 +46,6 @@ const Roadmap = () => {
         {
             date: 'In Progress',
             color: '#ffbf00',
-            title: 'Unirocket Listing',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
             title: 'Launch Contest',
         },
         {
@@ -62,6 +57,36 @@ const Roadmap = () => {
             date: 'In Progress',
             color: '#ffbf00',
             title: 'Blockfolio Listing',
+        },
+        {
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'Discord Community',
+        },
+        {
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'Cross Platform Targeted Advertisement',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Trust Wallet Listing',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Bogged.finance Listing',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Reddit Community Launch',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Cross-chain Integration',
         },
         {
             date: 'TBA',

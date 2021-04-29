@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe773481.chunk.css",
-    "main.js": "/static/js/main.7656a8bc.chunk.js",
+    "main.css": "/static/css/main.a1770efc.chunk.css",
+    "main.js": "/static/js/main.5686e19b.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.aa579fb5.js",
     "static/css/2.b56e9696.chunk.css": "/static/css/2.b56e9696.chunk.css",
     "static/js/2.2d781953.chunk.js": "/static/js/2.2d781953.chunk.js",
@@ -9,6 +9,7 @@
     "index.html": "/index.html",
     "static/js/2.2d781953.chunk.js.LICENSE.txt": "/static/js/2.2d781953.chunk.js.LICENSE.txt",
     "static/media/bscscan.3e2a4775.svg": "/static/media/bscscan.3e2a4775.svg",
+    "static/media/discord.415809f7.svg": "/static/media/discord.415809f7.svg",
     "static/media/github.bb432a13.svg": "/static/media/github.bb432a13.svg",
     "static/media/laikacoin.aea10919.png": "/static/media/laikacoin.aea10919.png",
     "static/media/laikadope.fa20afb6.png": "/static/media/laikadope.fa20afb6.png",
@@ -23,7 +24,7 @@
     "static/js/runtime-main.aa579fb5.js",
     "static/css/2.b56e9696.chunk.css",
     "static/js/2.2d781953.chunk.js",
-    "static/css/main.fe773481.chunk.css",
-    "static/js/main.7656a8bc.chunk.js"
+    "static/css/main.a1770efc.chunk.css",
+    "static/js/main.5686e19b.chunk.js"
   ]
 }

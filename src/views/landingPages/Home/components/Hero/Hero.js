@@ -12,6 +12,7 @@ import bscscan from 'images/bscscan.svg';
 import github from 'images/github.svg';
 import medium from 'images/medium.svg';
 import reddit from 'images/reddit.svg';
+import discord from 'images/discord.svg';
 import telegram from 'images/telegram.svg';
 import twitter from 'images/twitter.svg';
 import '../../../../../scss/main.scss';
@@ -83,6 +84,7 @@ const Hero = () => {
           <Box display="flex" justifyContent={{ xs: 'center', md: 'flex-start'}} width={{ xs: '100%', md: 'auto' }}>
             <span><a href={links.telegramLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={telegram}/></a></span>
             <span><a href={links.twitterLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={twitter}/></a></span>
+            <span><a href={links.discordLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle discord-icon" src={discord}/></a></span>
             <span><a href={links.githubLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={github}/></a></span>
             <span><a href={links.bscLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={bscscan}/></a></span>
             {/*<span><a href={links.mediumLink} target="_blank" rel="noreferrer"><img className="socialButtonStyle" src={medium}/></a></span>*/}

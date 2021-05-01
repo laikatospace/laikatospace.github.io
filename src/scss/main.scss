@@ -25,6 +25,14 @@
   height: 100%;
 }
 
+.space-dog-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background: url(../images/LaikaBG.svg);
+}
 
 @media (max-width: 600px) {
   /*Mobile View */

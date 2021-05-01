@@ -15,6 +15,7 @@ import reddit from 'images/reddit.svg';
 import discord from 'images/discord.svg';
 import telegram from 'images/telegram.svg';
 import twitter from 'images/twitter.svg';
+import laika from '../../../../../images/laikacoin.png';
 import '../../../../../scss/main.scss';
 import * as links from 'common/Links.js';
 
@@ -101,7 +102,8 @@ const Hero = () => {
           alignItems={'center'}
         >
           <Box height={'100%'} width={'100%'} maxHeight={600}>
-            <RocketIllustration width={'100%'} height={'100%'} />
+            {/*<RocketIllustration width={'100%'} height={'100%'} />*/}
+            <img width={'100%'} height={'100%'} src={laika}/>
           </Box>
         </Box>
       </Grid>

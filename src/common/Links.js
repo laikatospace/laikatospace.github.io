@@ -5,4 +5,4 @@ export const githubLink = 'https://github.com/laikatospace';
 export const bscLink = 'https://bscscan.com/address/0x2a49De60cc6204c3AFC3e770FDB30A0554147519';
 export const mediumLink = 'https://medium.com';
 export const redditLink = 'https://reddit.com';
-export const discordLink = 'https://discord.gg/eqP3eeec';
+export const discordLink = 'https://discord.gg/UGMkVDRHdz';

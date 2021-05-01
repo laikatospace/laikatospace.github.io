@@ -39,7 +39,7 @@ export const pages = [
       },
       {
         title: 'Discord',
-        href: 'https://discord.gg/eqP3eeec',
+        href: 'https://discord.gg/UGMkVDRHdz',
       },
       {
         title: 'Poocoin',

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a1770efc.chunk.css",
-    "main.js": "/static/js/main.5686e19b.chunk.js",
+    "main.js": "/static/js/main.fd3a4756.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.aa579fb5.js",
     "static/css/2.b56e9696.chunk.css": "/static/css/2.b56e9696.chunk.css",
     "static/js/2.2d781953.chunk.js": "/static/js/2.2d781953.chunk.js",
@@ -13,18 +13,19 @@
     "static/media/github.bb432a13.svg": "/static/media/github.bb432a13.svg",
     "static/media/laikacoin.aea10919.png": "/static/media/laikacoin.aea10919.png",
     "static/media/laikadope.fa20afb6.png": "/static/media/laikadope.fa20afb6.png",
+    "static/media/laikalogo.9a95a6e8.png": "/static/media/laikalogo.9a95a6e8.png",
     "static/media/medium.9249e7ae.svg": "/static/media/medium.9249e7ae.svg",
     "static/media/reddit.3e30f4d9.svg": "/static/media/reddit.3e30f4d9.svg",
     "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
     "static/media/telegram.1434f996.svg": "/static/media/telegram.1434f996.svg",
     "static/media/twitter.b0ba95b4.svg": "/static/media/twitter.b0ba95b4.svg",
-    "static/media/whitepaper.52627b65.pdf": "/static/media/whitepaper.52627b65.pdf"
+    "static/media/whitepaper.809783c3.pdf": "/static/media/whitepaper.809783c3.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.aa579fb5.js",
     "static/css/2.b56e9696.chunk.css",
     "static/js/2.2d781953.chunk.js",
     "static/css/main.a1770efc.chunk.css",
-    "static/js/main.5686e19b.chunk.js"
+    "static/js/main.fd3a4756.chunk.js"
   ]
 }

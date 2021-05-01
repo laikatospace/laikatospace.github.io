@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1770efc.chunk.css",
-    "main.js": "/static/js/main.fd3a4756.chunk.js",
+    "main.css": "/static/css/main.46c6ea72.chunk.css",
+    "main.js": "/static/js/main.b1d82582.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.aa579fb5.js",
     "static/css/2.b56e9696.chunk.css": "/static/css/2.b56e9696.chunk.css",
     "static/js/2.2d781953.chunk.js": "/static/js/2.2d781953.chunk.js",
     "static/js/3.502bfde8.chunk.js": "/static/js/3.502bfde8.chunk.js",
     "index.html": "/index.html",
     "static/js/2.2d781953.chunk.js.LICENSE.txt": "/static/js/2.2d781953.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/static/media/LaikaBG.76284f34.svg",
     "static/media/bscscan.3e2a4775.svg": "/static/media/bscscan.3e2a4775.svg",
     "static/media/discord.415809f7.svg": "/static/media/discord.415809f7.svg",
     "static/media/github.bb432a13.svg": "/static/media/github.bb432a13.svg",
@@ -17,6 +18,8 @@
     "static/media/medium.9249e7ae.svg": "/static/media/medium.9249e7ae.svg",
     "static/media/reddit.3e30f4d9.svg": "/static/media/reddit.3e30f4d9.svg",
     "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/spacedog.78ea78a5.png": "/static/media/spacedog.78ea78a5.png",
+    "static/media/spacedog2.961869a1.png": "/static/media/spacedog2.961869a1.png",
     "static/media/telegram.1434f996.svg": "/static/media/telegram.1434f996.svg",
     "static/media/twitter.b0ba95b4.svg": "/static/media/twitter.b0ba95b4.svg",
     "static/media/whitepaper.809783c3.pdf": "/static/media/whitepaper.809783c3.pdf"
@@ -25,7 +28,7 @@
     "static/js/runtime-main.aa579fb5.js",
     "static/css/2.b56e9696.chunk.css",
     "static/js/2.2d781953.chunk.js",
-    "static/css/main.a1770efc.chunk.css",
-    "static/js/main.fd3a4756.chunk.js"
+    "static/css/main.46c6ea72.chunk.css",
+    "static/js/main.b1d82582.chunk.js"
   ]
 }

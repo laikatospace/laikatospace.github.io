@@ -42,6 +42,20 @@ export const pages = [
         href: 'https://discord.gg/UGMkVDRHdz',
       },
       {
+        title: 'Reddit',
+        href: 'https://www.reddit.com/r/LaikaProtocol/',
+      },
+      {
+        title: 'Medium',
+        href: 'https://laikatospace.medium.com/',
+      },
+    ],
+  },
+  {
+    title: 'Charts',
+    id: 'charts',
+    pages: [
+      {
         title: 'Poocoin',
         href: 'https://poocoin.app/tokens/0x2a49De60cc6204c3AFC3e770FDB30A0554147519',
       },
@@ -53,14 +67,6 @@ export const pages = [
         title: 'Dex Guru',
         href: 'https://dex.guru/token/0x2a49de60cc6204c3afc3e770fdb30a0554147519-bsc',
       },
-      // {
-      //   title: 'Medium',
-      //   href: 'https://medium.com',
-      // },
-      // {
-      //   title: 'Reddit',
-      //   href: 'https://reddit.com',
-      // },
     ],
   }
 ];

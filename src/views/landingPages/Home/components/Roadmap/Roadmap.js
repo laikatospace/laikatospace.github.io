@@ -44,14 +44,14 @@ const Roadmap = () => {
             title: 'Waterfall Listing',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
+            date: 'Completed',
+            color: '#32cd80',
             title: 'Launch Contest',
         },
         {
             date: 'Completed',
             color: '#32cd80',
-            title: 'Poocoin Marketing',
+            title: 'Poocoin Ad Campaign',
         },
         {
             date: 'In Progress',
@@ -69,18 +69,28 @@ const Roadmap = () => {
             title: 'Cross Platform Targeted Advertisement',
         },
         {
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'CryptoMoonShot Listing',
+        },
+        {
             date: 'In Progress',
             color: '#ffbf00',
             title: 'Trust Wallet Listing',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
+            date: 'Completed',
+            color: '#32cd80',
             title: 'Bogged.finance Listing',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'Bogged.finance Ad campaign',
+        },
+        {
+            date: 'Completed',
+            color: '#32cd80',
             title: 'Reddit Community Launch',
         },
         {
@@ -93,8 +103,14 @@ const Roadmap = () => {
             title: 'Live Recommended Slippage Calculator',
         },
         {
-            date: 'TBA',
+            date: 'Completed',
+            color: '#32cd80',
             title: '1,000 Holder Milestone Contest',
+        },
+        {
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'First official AMA',
         },
         {
             date: 'In Progress',
@@ -107,6 +123,26 @@ const Roadmap = () => {
             title: 'CoinMarketCap Listing',
         },
         {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'LiveCoinWatch Listing',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Harmony.One Launch',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Harmony.One Bridge',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: '2,500 Holder Milestone Contest',
+        },
+        {
             date: 'TBA',
             title: 'Certik Audit',
         },
@@ -115,7 +151,8 @@ const Roadmap = () => {
             title: 'First Community Charity Run',
         },
         {
-            date: 'TBA',
+            date: 'In Progress',
+            color: '#ffbf00',
             title: 'First Major Exchange Listing',
         },
         {
@@ -136,11 +173,11 @@ const Roadmap = () => {
         },
         {
             date: 'TBA',
-            title: 'Cross-Chain Integration(Harmony One)',
+            title: 'Additional Cross-Chain Integration',
         },
         {
             date: 'TBA',
-            title: '10,000 Holder Mileston Contest',
+            title: '10,000 Holder Milestone Contest',
         },
         {
             date: 'TBA',

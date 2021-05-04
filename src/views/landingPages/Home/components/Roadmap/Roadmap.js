@@ -36,7 +36,7 @@ const Roadmap = () => {
         {
             date: 'Completed',
             color: '#32cd80',
-            title: 'Listing on Pancake Swap',
+            title: 'PancakeSwap Listing',
         },
         {
             date: 'Completed',
@@ -54,11 +54,6 @@ const Roadmap = () => {
             title: 'Poocoin Ad Campaign',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
-            title: 'Blockfolio Listing',
-        },
-        {
             date: 'Completed',
             color: '#32cd80',
             title: 'Discord Community',
@@ -66,22 +61,7 @@ const Roadmap = () => {
         {
             date: 'Completed',
             color: '#32cd80',
-            title: 'Cross Platform Targeted Advertisement',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'CryptoMoonShot Listing',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
-            title: 'Trust Wallet Listing',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'Bogged.finance Listing',
+            title: 'Reddit Community Launch',
         },
         {
             date: 'Completed',
@@ -91,16 +71,7 @@ const Roadmap = () => {
         {
             date: 'Completed',
             color: '#32cd80',
-            title: 'Reddit Community Launch',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
-            title: 'Cross-chain Integration',
-        },
-        {
-            date: 'TBA',
-            title: 'Live Recommended Slippage Calculator',
+            title: 'Bogged.finance Listing',
         },
         {
             date: 'Completed',
@@ -111,6 +82,31 @@ const Roadmap = () => {
             date: 'Completed',
             color: '#32cd80',
             title: 'First official AMA',
+        },
+        {
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'CryptoMoonShot Listing',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Harmony.One Launch',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: '2,500 Holder Milestone Contest',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Trust Wallet Listing',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'LiveCoinWatch Listing',
         },
         {
             date: 'In Progress',
@@ -125,12 +121,7 @@ const Roadmap = () => {
         {
             date: 'In Progress',
             color: '#ffbf00',
-            title: 'LiveCoinWatch Listing',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
-            title: 'Harmony.One Launch',
+            title: 'First Major Exchange Listing',
         },
         {
             date: 'In Progress',
@@ -138,9 +129,12 @@ const Roadmap = () => {
             title: 'Harmony.One Bridge',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
-            title: '2,500 Holder Milestone Contest',
+            date: 'TBA',
+            title: '5,000 Holder Milestone Contest',
+        },
+        {
+            date: 'TBA',
+            title: 'Additional Cross-chain Integration',
         },
         {
             date: 'TBA',
@@ -148,44 +142,15 @@ const Roadmap = () => {
         },
         {
             date: 'TBA',
-            title: 'First Community Charity Run',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
-            title: 'First Major Exchange Listing',
+            title: 'Mobile App',
         },
         {
             date: 'TBA',
-            title: '5,000 Holder Milestone Contest',
+            title: 'First Official NFT set',
         },
         {
             date: 'TBA',
-            title: 'Website Overhaul',
-        },
-        {
-            date: 'TBA',
-            title: 'Esports Team Launch',
-        },
-        {
-            date: 'TBA',
-            title: 'Mobile App Launch',
-        },
-        {
-            date: 'TBA',
-            title: 'Additional Cross-Chain Integration',
-        },
-        {
-            date: 'TBA',
-            title: '10,000 Holder Milestone Contest',
-        },
-        {
-            date: 'TBA',
-            title: 'First Limited Edition NFT Pack Release',
-        },
-        {
-            date: 'TBA',
-            title: 'Second Community Charity Run',
+            title: 'First Charity Event',
         },
         {
             date: 'TBA',
@@ -193,11 +158,11 @@ const Roadmap = () => {
         },
         {
             date: 'TBA',
-            title: 'IDO Platform',
+            title: '10,000 Holder Milestone Contest',
         },
         {
             date: 'TBA',
-            title: 'Additional Cross-Chain Integration',
+            title: 'Esports Team Launch',
         },
     ];
 

@@ -89,8 +89,8 @@ const Roadmap = () => {
             title: 'CryptoMoonShot Listing',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
+            date: 'Completed',
+            color: '#32cd80',
             title: 'Harmony.One Launch',
         },
         {
@@ -104,8 +104,8 @@ const Roadmap = () => {
             title: 'Trust Wallet Listing',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
+            date: 'Completed',
+            color: '#32cd80',
             title: 'LiveCoinWatch Listing',
         },
         {
@@ -134,11 +134,7 @@ const Roadmap = () => {
         },
         {
             date: 'TBA',
-            title: 'Additional Cross-chain Integration',
-        },
-        {
-            date: 'TBA',
-            title: 'Certik Audit',
+            title: 'TechRate Audit',
         },
         {
             date: 'TBA',
@@ -163,6 +159,10 @@ const Roadmap = () => {
         {
             date: 'TBA',
             title: 'Esports Team Launch',
+        },
+        {
+            date: 'TBA',
+            title: 'Additional Cross-chain Integration',
         },
     ];
 

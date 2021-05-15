@@ -14,6 +14,7 @@ import whitepaper from 'common/whitepaper.pdf';
 import * as links from 'common/Links.js';
 import 'scss/main.scss';
 
+
 const Topbar = ({
   setThemePalette,
   onSidebarOpen,

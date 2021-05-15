@@ -5,15 +5,12 @@ import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import { useTheme } from '@material-ui/core/styles';
-import { colors } from '@material-ui/core';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import laikaLogo from 'images/laikadope.png';
-import paletteTypes from 'common/paletteTypes';
 import whitepaper from 'common/whitepaper.pdf';
 import * as links from 'common/Links.js';
 import 'scss/main.scss';
-
 
 const Topbar = ({
   setThemePalette,

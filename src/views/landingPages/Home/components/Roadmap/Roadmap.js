@@ -94,13 +94,13 @@ const Roadmap = () => {
             title: 'Harmony.One Launch',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
+            date: 'Completed',
+            color: '#32cd80',
             title: '2,500 Holder Milestone Contest',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
+            date: 'Completed',
+            color: '#32cd80',
             title: 'Trust Wallet Listing',
         },
         {
@@ -109,13 +109,18 @@ const Roadmap = () => {
             title: 'LiveCoinWatch Listing',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
+            date: 'Completed',
+            color: '#32cd80',
+            title: '5,000 Holder Milestone Contest',
+        },
+        {
+            date: 'Completed',
+            color: '#32cd80',
             title: 'CoinGecko Listing',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
+            date: 'Completed',
+            color: '#32cd80',
             title: 'CoinMarketCap Listing',
         },
         {
@@ -129,11 +134,8 @@ const Roadmap = () => {
             title: 'Harmony.One Bridge',
         },
         {
-            date: 'TBA',
-            title: '5,000 Holder Milestone Contest',
-        },
-        {
-            date: 'TBA',
+            date: 'In Progress',
+            color: '#ffbf00',
             title: 'TechRate Audit',
         },
         {

@@ -39,7 +39,7 @@ export const pages = [
       },
       {
         title: 'Discord',
-        href: 'https://discord.gg/UGMkVDRHdz',
+        href: 'https://discord.gg/JVrzBP5Fuq',
       },
       {
         title: 'Reddit',

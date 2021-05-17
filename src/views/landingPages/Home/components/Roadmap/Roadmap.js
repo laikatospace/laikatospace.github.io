@@ -114,8 +114,8 @@ const Roadmap = () => {
             title: '5,000 Holder Milestone Contest',
         },
         {
-            date: 'Completed',
-            color: '#32cd80',
+            date: 'In Progress',
+            color: '#ffbf00',
             title: 'CoinGecko Listing',
         },
         {

@@ -16,127 +16,56 @@ const Roadmap = () => {
         {
             date: 'Completed',
             color: '#32cd80',
-            title: 'Website Launch',
+            title: 'BSC Launch',
         },
         {
             date: 'Completed',
             color: '#32cd80',
-            title: 'Internal Audit',
+            title: 'Harmony Integration',
         },
         {
             date: 'Completed',
             color: '#32cd80',
-            title: 'Whitelist Presale',
+            title: 'Matic Integration',
         },
         {
             date: 'Completed',
             color: '#32cd80',
-            title: 'Public Presale',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'PancakeSwap Listing',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'Waterfall Listing',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'Launch Contest',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'Poocoin Ad Campaign',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'Discord Community',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'Reddit Community Launch',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'Bogged.finance Ad campaign',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'Bogged.finance Listing',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: '1,000 Holder Milestone Contest',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'First official AMA',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'CryptoMoonShot Listing',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'Harmony.One Launch',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: '2,500 Holder Milestone Contest',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'Trust Wallet Listing',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'LiveCoinWatch Listing',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: '5,000 Holder Milestone Contest',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
-            title: 'CoinGecko Listing',
-        },
-        {
-            date: 'Completed',
-            color: '#32cd80',
-            title: 'CoinMarketCap Listing',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
             title: 'First Major Exchange Listing',
         },
         {
             date: 'In Progress',
             color: '#ffbf00',
-            title: 'Harmony.One Bridge',
+            title: 'Ethereum Integration',
         },
         {
             date: 'In Progress',
             color: '#ffbf00',
-            title: 'TechRate Audit',
+            title: 'Fantom Integration',
+        },
+        {
+            date: 'Completed',
+            color: '#ffbf00',
+            title: 'Laika Academy',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Laika Stargate',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Laika Forge',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Second Major Exchange Listing',
+        },
+        {
+            date: 'TBA',
+            title: 'Additional Cross-chain Integration',
         },
         {
             date: 'TBA',
@@ -144,27 +73,19 @@ const Roadmap = () => {
         },
         {
             date: 'TBA',
-            title: 'First Official NFT set',
+            title: 'Contract Optimization',
         },
         {
             date: 'TBA',
-            title: 'First Charity Event',
+            title: 'Security Audit',
         },
         {
             date: 'TBA',
-            title: 'Second Major Exchange Listing',
+            title: 'Third Major Exchange Listing',
         },
         {
             date: 'TBA',
-            title: '10,000 Holder Milestone Contest',
-        },
-        {
-            date: 'TBA',
-            title: 'Esports Team Launch',
-        },
-        {
-            date: 'TBA',
-            title: 'Additional Cross-chain Integration',
+            title: 'Laika Bridge',
         },
     ];
 

@@ -5,6 +5,9 @@ import {useTheme} from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
+import Menu from '@material-ui/core/Menu';
+import Link from '@material-ui/core/Link';
+import MenuItem from '@material-ui/core/MenuItem';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import RocketIllustration from 'svg/illustrations/Rocket';
@@ -15,6 +18,10 @@ import reddit from 'images/reddit.svg';
 import discord from 'images/discord.svg';
 import telegram from 'images/telegram.svg';
 import twitter from 'images/twitter.svg';
+import one from 'images/one.png';
+import bsc from 'images/bsc.svg';
+import matic from 'images/matic.png';
+import coinsbit from 'images/coinsbit.png';
 import laika from '../../../../../images/laikacoin.png';
 import '../../../../../scss/main.scss';
 import * as links from 'common/Links.js';
@@ -25,11 +32,24 @@ const Hero = () => {
         defaultMatches: true,
     });
 
+    const [anchorEl, setAnchorEl] = React.useState(null);
+
+    const handleClick = (event) => {
+      setAnchorEl(event.currentTarget);
+    };
+
+    const handleClose = () => {
+      setAnchorEl(null);
+    };
+
     return (
         <Grid container spacing={4}>
             <Grid item container alignItems={'center'} xs={12} md={6}>
                 <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
                     <Box marginBottom={2}>
+                        <img src={bsc} className="hover-animation-chain bsc"/>
+                        <img src={one} className="hover-animation-chain one"/>
+                        <img src={matic} className="hover-animation-chain matic"/>
                         <Typography
                             variant="h2"
                             color="textPrimary"
@@ -74,13 +94,47 @@ const Hero = () => {
                             color="primary"
                             size="large"
                             fullWidth={isMd ? false : true}
-                            href={
-                                links.buyLink
-                            }
                             target={'_blank'}
+                            aria-controls="simple-menu"
+                            aria-haspopup="true"
+                            onClick={handleClick}
                         >
                             Buy Now
                         </Button>
+                        <Menu
+                          id="simple-menu"
+                          className="simple-menu"
+                          anchorEl={anchorEl}
+                          keepMounted
+                          open={Boolean(anchorEl)}
+                          onClose={handleClose}
+                        >
+                          <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.buyLink}>
+                              <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>PancakeSwap
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.v1BuyLink}>
+                              <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SnowgeSwap
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.maticBuyLink}>
+                              <img src={matic} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>QuickSwap
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.harmonyBuyLink}>
+                              <img src={one} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>ViperSwap
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.coinsbitLink}>
+                              <img src={coinsbit} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>CoinsBit
+                            </Link>
+                          </MenuItem>
+                        </Menu>
                     </Box>
                     <Box display="flex" justifyContent={{xs: 'center', md: 'flex-start'}}
                          width={{xs: '100%', md: 'auto'}}>

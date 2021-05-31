@@ -4,6 +4,7 @@ import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
+import Tooltip from '@material-ui/core/Tooltip';
 import laikaLogo from 'images/laikalogo.png';
 import whitepaper from 'common/whitepaper.pdf';
 import * as links from 'common/Links.js';
@@ -53,6 +54,45 @@ const Footer = () => (
             >
               WhitePaper
             </Link>
+          </Box>
+          <Box marginTop={1} marginRight={2}>
+            <Tooltip title="Coming Soon!">
+              <Link
+                underline="none"
+                component="a"
+                href="/"
+                color="textPrimary"
+                variant={'subtitle2'}
+              >
+                Academy<sup style={{color:"#c2185b"}}>TBA</sup>
+              </Link>
+            </Tooltip>
+          </Box>
+          <Box marginTop={1} marginRight={2}>
+            <Tooltip title="Coming Soon!">
+              <Link
+                underline="none"
+                component="a"
+                href="/"
+                color="textPrimary"
+                variant={'subtitle2'}
+              >
+                Stargate<sup style={{color:"#c2185b"}}>TBA</sup>
+              </Link>
+            </Tooltip>
+          </Box>
+          <Box marginTop={1} marginRight={2}>
+            <Tooltip title="Coming Soon!">
+              <Link
+                underline="none"
+                component="a"
+                href="/"
+                color="textPrimary"
+                variant={'subtitle2'}
+              >
+              Forge<sup style={{color:"#c2185b"}}>TBA</sup>
+              </Link>
+            </Tooltip>
           </Box>
           <Box marginTop={1}>
             <Button

@@ -56,7 +56,7 @@ const Highlights = () => {
             ),
           },
           {
-            title: 'Upcoming cross-chain integration',
+            title: 'Cross-chain integration',
             subtitle:
               'Crypto moves fast. We\'re moving with it. Our engineers are prepared and ready to take Laika cross-chain, cross-planet, and cross-galaxy.',
             icon: (

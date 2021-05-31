@@ -4,12 +4,19 @@ import Hidden from '@material-ui/core/Hidden';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
+import Tooltip from '@material-ui/core/Tooltip';
 import { useTheme } from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import laikaLogo from 'images/laikadope.png';
 import whitepaper from 'common/whitepaper.pdf';
 import * as links from 'common/Links.js';
+import one from 'images/one.png';
+import bsc from 'images/bsc.svg';
+import matic from 'images/matic.png';
+import coinsbit from 'images/coinsbit.png';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
 import 'scss/main.scss';
 
 const Topbar = ({
@@ -18,6 +25,16 @@ const Topbar = ({
   paletteType,
 }) => {
   const theme = useTheme();
+
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
   return (
     <Box
       display={'flex'}
@@ -44,45 +61,6 @@ const Topbar = ({
         <b>Laika Protocol</b>
       </Box>
       <Box display="flex" alignItems={'center'}>
-        {/*<Box*/}
-        {/*  display={'flex'}*/}
-        {/*  padding={1}*/}
-        {/*  marginRight={1}*/}
-        {/*  borderRadius={8}*/}
-        {/*  bgcolor={theme.palette.alternate.main}*/}
-        {/*>*/}
-        {/*  {paletteTypes.map((item, i) => (*/}
-        {/*    <Box*/}
-        {/*      key={item}*/}
-        {/*      bgcolor={colors[item][700]}*/}
-        {/*      width={20}*/}
-        {/*      height={20}*/}
-        {/*      borderRadius={'100%'}*/}
-        {/*      marginRight={i === paletteTypes.length - 1 ? 0 : 1}*/}
-        {/*      display={'flex'}*/}
-        {/*      justifyContent={'center'}*/}
-        {/*      alignItems={'center'}*/}
-        {/*      sx={{ cursor: 'pointer' }}*/}
-        {/*      onClick={() => setThemePalette(item)}*/}
-        {/*    >*/}
-        {/*      {paletteType === item && (*/}
-        {/*        <svg*/}
-        {/*          width={12}*/}
-        {/*          height={12}*/}
-        {/*          xmlns="http://www.w3.org/2000/svg"*/}
-        {/*          viewBox="0 0 20 20"*/}
-        {/*          fill="currentColor"*/}
-        {/*        >*/}
-        {/*          <path*/}
-        {/*            fillRule="evenodd"*/}
-        {/*            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"*/}
-        {/*            clipRule="evenodd"*/}
-        {/*          />*/}
-        {/*        </svg>*/}
-        {/*      )}*/}
-        {/*    </Box>*/}
-        {/*  ))}*/}
-        {/*</Box>*/}
         <Hidden mdDown>
           <Box>
             <Link underline="none" component="a" href="/" color="textPrimary">
@@ -100,17 +78,74 @@ const Topbar = ({
               WhitePaper
             </Link>
           </Box>
+          <Box marginX={2}>
+            <Tooltip title="Coming Soon!">
+              <Link underline="none" component="a" href="/" color="textPrimary">
+                Academy<sup style={{color:"#c2185b"}}>TBA</sup>
+              </Link>
+            </Tooltip>
+          </Box>
+          <Box marginX={2}>
+            <Tooltip title="Coming Soon!">
+              <Link underline="none" component="a" href="/" color="textPrimary">
+                Stargate<sup style={{color:"#c2185b"}}>TBA</sup>
+              </Link>
+            </Tooltip>
+          </Box>
+          <Box marginX={2}>
+            <Tooltip title="Coming Soon!">
+              <Link underline="none" component="a" href="/" color="textPrimary">
+                Forge<sup style={{color:"#c2185b"}}>TBA</sup>
+              </Link>
+            </Tooltip>
+          </Box>
           <Box>
             <Button
               variant="contained"
               color="primary"
               component="a"
               target="_blank"
-              href={links.buyLink}
               size="large"
+              aria-controls="simple-menu"
+              aria-haspopup="true"
+              onClick={handleClick}
             >
               Purchase now
             </Button>
+            <Menu
+              id="simple-menu"
+              className="simple-menu"
+              anchorEl={anchorEl}
+              keepMounted
+              open={Boolean(anchorEl)}
+              onClose={handleClose}
+            >
+              <MenuItem onClick={handleClose}>
+                <Link underline="none" component="a" color="white" href={links.buyLink}>
+                  <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>PancakeSwap
+                </Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link underline="none" component="a" color="white" href={links.v1BuyLink}>
+                  <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SnowgeSwap
+                </Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link underline="none" component="a" color="white" href={links.maticBuyLink}>
+                  <img src={matic} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>QuickSwap
+                </Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link underline="none" component="a" color="white" href={links.harmonyBuyLink}>
+                  <img src={one} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>ViperSwap
+                </Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link underline="none" component="a" color="white" href={links.coinsbitLink}>
+                  <img src={coinsbit} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>CoinsBit
+                </Link>
+              </MenuItem>
+            </Menu>
           </Box>
         </Hidden>
       </Box>

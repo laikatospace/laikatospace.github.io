@@ -2,10 +2,27 @@
 import React from 'react';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
+import Menu from '@material-ui/core/Menu';
+import Link from '@material-ui/core/Link';
+import MenuItem from '@material-ui/core/MenuItem';
 import Typography from '@material-ui/core/Typography';
+import one from 'images/one.png';
+import bsc from 'images/bsc.svg';
+import matic from 'images/matic.png';
+import coinsbit from 'images/coinsbit.png';
 import * as links from 'common/Links.js';
 
 const Footer = () => {
+
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
   return (
     <Box id="getstarted">
       <Typography
@@ -39,11 +56,13 @@ const Footer = () => {
       <Box marginTop={3} display={'flex'} justifyContent={'center'}>
         <Button
           component={'a'}
-          href={links.buyLink}
           target={'_blank'}
           variant="contained"
           color="primary"
           size="large"
+          aria-controls="simple-menu"
+          aria-haspopup="true"
+          onClick={handleClick}
           endIcon={
             <svg
               width={16}
@@ -64,6 +83,40 @@ const Footer = () => {
         >
           Purchase now
         </Button>
+        <Menu
+          id="simple-menu"
+          className="simple-menu"
+          anchorEl={anchorEl}
+          keepMounted
+          open={Boolean(anchorEl)}
+          onClose={handleClose}
+        >
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.buyLink}>
+              <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>PancakeSwap
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.v1BuyLink}>
+              <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SnowgeSwap
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.maticBuyLink}>
+              <img src={matic} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>QuickSwap
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.harmonyBuyLink}>
+              <img src={one} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>ViperSwap
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.coinsbitLink}>
+              <img src={coinsbit} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>CoinsBit
+            </Link>
+          </MenuItem>
+        </Menu>
       </Box>
     </Box>
   );

@@ -81,6 +81,36 @@ const SidebarNav = ({ pages, onClose }) => {
         </Box>
         <Box marginTop={1}>
           <Button
+            variant="outlined"
+            fullWidth
+            component="a"
+            href="/"
+          >
+            Academy<sup><sup style={{color:"white"}}>TBA</sup></sup>
+          </Button>
+        </Box>
+        <Box marginTop={1}>
+          <Button
+            variant="outlined"
+            fullWidth
+            component="a"
+            href="/"
+          >
+            Stargate<sup><sup style={{color:"white"}}>TBA</sup></sup>
+          </Button>
+        </Box>
+        <Box marginTop={1}>
+          <Button
+            variant="outlined"
+            fullWidth
+            component="a"
+            href="/"
+          >
+            Forge<sup><sup style={{color:"white"}}>TBA</sup></sup>
+          </Button>
+        </Box>
+        <Box marginTop={1}>
+          <Button
             variant="contained"
             color="primary"
             fullWidth

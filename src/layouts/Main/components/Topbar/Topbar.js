@@ -81,21 +81,21 @@ const Topbar = ({
           <Box marginX={2}>
             <Tooltip title="Coming Soon!">
               <Link underline="none" component="a" href="/" color="textPrimary">
-                Academy<sup style={{color:"#c2185b"}}>TBA</sup>
+                Academy<sup style={{color:"#c2185b", fontWeight: 600, fontSize: '12px'}}>TBA</sup>
               </Link>
             </Tooltip>
           </Box>
           <Box marginX={2}>
             <Tooltip title="Coming Soon!">
               <Link underline="none" component="a" href="/" color="textPrimary">
-                Stargate<sup style={{color:"#c2185b"}}>TBA</sup>
+                Stargate<sup style={{color:"#c2185b", fontWeight: 600, fontSize: '12px'}}>TBA</sup>
               </Link>
             </Tooltip>
           </Box>
           <Box marginX={2}>
             <Tooltip title="Coming Soon!">
               <Link underline="none" component="a" href="/" color="textPrimary">
-                Forge<sup style={{color:"#c2185b"}}>TBA</sup>
+                Forge<sup style={{color:"#c2185b", fontWeight: 600, fontSize: '12px'}}>TBA</sup>
               </Link>
             </Tooltip>
           </Box>

@@ -87,6 +87,10 @@ const Roadmap = () => {
             date: 'TBA',
             title: 'Laika Bridge',
         },
+        {
+            date: 'TBA',
+            title: 'Laika Oracle',
+        },
     ];
 
     const TimeLineMobileView = ({timeline = []}) => (

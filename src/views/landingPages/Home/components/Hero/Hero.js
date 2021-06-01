@@ -21,6 +21,7 @@ import twitter from 'images/twitter.svg';
 import one from 'images/one.png';
 import bsc from 'images/bsc.svg';
 import matic from 'images/matic.png';
+import ethereum from 'images/ethereum.png';
 import coinsbit from 'images/coinsbit.png';
 import laika from '../../../../../images/laikacoin.png';
 import '../../../../../scss/main.scss';
@@ -50,6 +51,7 @@ const Hero = () => {
                         <img src={bsc} className="hover-animation-chain bsc"/>
                         <img src={one} className="hover-animation-chain one"/>
                         <img src={matic} className="hover-animation-chain matic"/>
+                        <img src={ethereum} className="hover-animation-chain eth"/>
                         <Typography
                             variant="h2"
                             color="textPrimary"
@@ -127,6 +129,11 @@ const Hero = () => {
                           <MenuItem onClick={handleClose}>
                             <Link underline="none" component="a" color="white" href={links.harmonyBuyLink}>
                               <img src={one} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>ViperSwap
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.ethBuyLink}>
+                              <img src={ethereum} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>UniSwap
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>

@@ -34,7 +34,7 @@
 }
 
 .hover-animation-chain{
-  width: 5vw;
+  width: 4vw;
   transition: all 1s ease;
 
   &.bsc {
@@ -43,6 +43,10 @@
   }
 
   &.one {
+    margin-right: 5vw;
+  }
+
+  &.matic {
     margin-right: 5vw;
   }
 
@@ -60,7 +64,7 @@
   }
 
   .hover-animation-chain{
-    width: 10vw;
+    width: 8vw;
     transition: all 1s ease;
 
     &.bsc {
@@ -69,6 +73,10 @@
     }
 
     &.one {
+      margin-right: 5vw;
+    }
+
+    &.matic {
       margin-right: 5vw;
     }
 

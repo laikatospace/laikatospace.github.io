@@ -13,3 +13,6 @@ export const maticBuyLink = 'https://quickswap.exchange/#/swap?inputCurrency=0x0
 export const harmonyExplorerLink = 'https://explorer.harmony.one/#/address/0x6AE269cFD931180a00E4A1ec6461Ff587ad57647';
 export const harmonyBuyLink = 'https://viperswap.one/#/swap?outputCurrency=0x6AE269cFD931180a00E4A1ec6461Ff587ad57647';
 export const coinsbitLink = 'https://coinsbit.io/trade/LAIKA_mUSDT';
+export const ethExplorerLink = 'https://etherscan.io/token/0x0bfFc5692960Bb043D3216839bDD6e5E64ff1b4e';
+export const ethChartLink = 'https://www.dextools.io/app/uniswap/pair-explorer/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
+export const ethBuyLink = 'https://app.uniswap.org/#/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0x0bfFc5692960Bb043D3216839bDD6e5E64ff1b4e';

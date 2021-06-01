@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1140c54.chunk.css",
-    "main.js": "/static/js/main.a807071a.chunk.js",
+    "main.css": "/static/css/main.351c804c.chunk.css",
+    "main.js": "/static/js/main.e8a4ab22.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.317b18bd.js",
     "static/css/2.b56e9696.chunk.css": "/static/css/2.b56e9696.chunk.css",
-    "static/js/2.f8b17614.chunk.js": "/static/js/2.f8b17614.chunk.js",
+    "static/js/2.c101731c.chunk.js": "/static/js/2.c101731c.chunk.js",
     "static/js/3.8789e1c2.chunk.js": "/static/js/3.8789e1c2.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.f8b17614.chunk.js.LICENSE.txt": "/static/js/2.f8b17614.chunk.js.LICENSE.txt",
+    "static/js/2.c101731c.chunk.js.LICENSE.txt": "/static/js/2.c101731c.chunk.js.LICENSE.txt",
     "static/media/LaikaBG.76284f34.svg": "/static/media/LaikaBG.76284f34.svg",
-    "static/media/bsc.dd0af417.svg": "/static/media/bsc.dd0af417.svg",
+    "static/media/bsc.e03c891d.svg": "/static/media/bsc.e03c891d.svg",
     "static/media/bscscan.3e2a4775.svg": "/static/media/bscscan.3e2a4775.svg",
     "static/media/coinsbit.ec24fb51.png": "/static/media/coinsbit.ec24fb51.png",
     "static/media/discord.415809f7.svg": "/static/media/discord.415809f7.svg",
+    "static/media/ethereum.91dd9993.png": "/static/media/ethereum.91dd9993.png",
     "static/media/github.bb432a13.svg": "/static/media/github.bb432a13.svg",
     "static/media/laikacoin.aea10919.png": "/static/media/laikacoin.aea10919.png",
     "static/media/laikadope.fa20afb6.png": "/static/media/laikadope.fa20afb6.png",
@@ -32,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.317b18bd.js",
     "static/css/2.b56e9696.chunk.css",
-    "static/js/2.f8b17614.chunk.js",
-    "static/css/main.f1140c54.chunk.css",
-    "static/js/main.a807071a.chunk.js"
+    "static/js/2.c101731c.chunk.js",
+    "static/css/main.351c804c.chunk.css",
+    "static/js/main.e8a4ab22.chunk.js"
   ]
 }

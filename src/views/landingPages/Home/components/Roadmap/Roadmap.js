@@ -34,8 +34,8 @@ const Roadmap = () => {
             title: 'First Major Exchange Listing',
         },
         {
-            date: 'In Progress',
-            color: '#ffbf00',
+            date: 'Completed',
+            color: '#32cd80',
             title: 'Ethereum Integration',
         },
         {
@@ -64,7 +64,8 @@ const Roadmap = () => {
             title: 'Second Major Exchange Listing',
         },
         {
-            date: 'TBA',
+            date: 'In Progress',
+            color: '#ffbf00',
             title: 'Additional Cross-chain Integration',
         },
         {

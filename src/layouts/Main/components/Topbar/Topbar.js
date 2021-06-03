@@ -16,7 +16,7 @@ import bsc from 'images/bsc.svg';
 import matic from 'images/matic.png';
 import ethereum from 'images/ethereum.png';
 import huobi from 'images/huobi.png';
-import okex from 'images/okex.webp';
+import okex from 'images/okex.png';
 import coinsbit from 'images/coinsbit.png';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';

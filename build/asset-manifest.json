@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.42563cfc.chunk.css",
-    "main.js": "/static/js/main.3cdc3e4f.chunk.js",
+    "main.css": "/static/css/main.a812292c.chunk.css",
+    "main.js": "/static/js/main.3fc361ea.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.317b18bd.js",
     "static/css/2.b56e9696.chunk.css": "/static/css/2.b56e9696.chunk.css",
     "static/js/2.c101731c.chunk.js": "/static/js/2.c101731c.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/matic.1140771b.png": "/static/media/matic.1140771b.png",
     "static/media/medium.9249e7ae.svg": "/static/media/medium.9249e7ae.svg",
     "static/media/multidog.960b18e2.png": "/static/media/multidog.960b18e2.png",
-    "static/media/okex.cbc7c8cd.webp": "/static/media/okex.cbc7c8cd.webp",
+    "static/media/okex.41a25998.png": "/static/media/okex.41a25998.png",
     "static/media/one.3208dd05.png": "/static/media/one.3208dd05.png",
     "static/media/reddit.3e30f4d9.svg": "/static/media/reddit.3e30f4d9.svg",
     "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.317b18bd.js",
     "static/css/2.b56e9696.chunk.css",
     "static/js/2.c101731c.chunk.js",
-    "static/css/main.42563cfc.chunk.css",
-    "static/js/main.3cdc3e4f.chunk.js"
+    "static/css/main.a812292c.chunk.css",
+    "static/js/main.3fc361ea.chunk.js"
   ]
 }

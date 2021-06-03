@@ -34,11 +34,11 @@
 }
 
 .hover-animation-chain{
-  width: 3vw;
+  width: 4vw;
   transition: all 1s ease;
 
   &.bsc {
-    margin-left: -0.3vw;
+    // margin-left: -0.3vw;
     margin-right: 3.25vw;
   }
 
@@ -72,11 +72,11 @@
   }
 
   .hover-animation-chain{
-    width: 8vw;
+    width: 10vw;
     transition: all 1s ease;
 
     &.bsc {
-      margin-left: -0.4vw;
+      margin-left: -0.8vw;
       margin-right: 5vw;
     }
 

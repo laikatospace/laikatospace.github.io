@@ -23,7 +23,7 @@ import bsc from 'images/bsc.svg';
 import matic from 'images/matic.png';
 import ethereum from 'images/ethereum.png';
 import huobi from 'images/huobi.png';
-import okex from 'images/okex.webp';
+import okex from 'images/okex.png';
 import coinsbit from 'images/coinsbit.png';
 import laika from '../../../../../images/laikacoin.png';
 import '../../../../../scss/main.scss';
@@ -50,12 +50,26 @@ const Hero = () => {
             <Grid item container alignItems={'center'} xs={12} md={6}>
                 <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
                     <Box marginBottom={2}>
+                      {isMd && <React.Fragment>
+                        <Box>
+                          <img src={bsc} className="hover-animation-chain bsc"/>
+                          <img src={one} className="hover-animation-chain one"/>
+                          <img src={matic} className="hover-animation-chain matic"/>
+                        </Box>
+                        <Box>
+                          <img src={ethereum} className="hover-animation-chain eth"/>
+                          <img src={huobi} className="hover-animation-chain huobi"/>
+                          <img src={okex} className="hover-animation-chain okex"/>
+                        </Box>
+                      </React.Fragment>}
+                      {!isMd && <Box>
                         <img src={bsc} className="hover-animation-chain bsc"/>
                         <img src={one} className="hover-animation-chain one"/>
                         <img src={matic} className="hover-animation-chain matic"/>
                         <img src={ethereum} className="hover-animation-chain eth"/>
                         <img src={huobi} className="hover-animation-chain huobi"/>
                         <img src={okex} className="hover-animation-chain okex"/>
+                      </Box>}
                         <Typography
                             variant="h2"
                             color="textPrimary"

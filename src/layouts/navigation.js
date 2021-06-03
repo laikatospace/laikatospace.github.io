@@ -124,6 +124,34 @@ export const pages = [
     ],
   },
   {
+    title: 'HUOBI ECO',
+    id: 'huobi',
+    pages: [
+      {
+        title: 'HecoInfo (Explorer)',
+        href: 'https://hecoinfo.com/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e',
+      },
+      {
+        title: 'MakiSwap',
+        href: 'https://exchange.makiswap.com/#/swap?inputCurrency=0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f&outputCurrency=0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e',
+      }
+    ],
+  },
+  {
+    title: 'OKEx',
+    id: 'okex',
+    pages: [
+      {
+        title: 'OKLink (Explorer)',
+        href: 'https://www.oklink.com/okexchain/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e',
+      },
+      {
+        title: 'OKExDex',
+        href: 'https://www.okex.com/dex-test/swap',
+      }
+    ],
+  },
+  {
     title: 'CENTRALIZED EXCHANGES',
     id: 'cex',
     pages: [

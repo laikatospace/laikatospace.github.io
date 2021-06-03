@@ -39,6 +39,16 @@ const Roadmap = () => {
             title: 'Ethereum Integration',
         },
         {
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'Huobi Eco Integration',
+        },
+        {
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'OKEx Integration',
+        },
+        {
             date: 'In Progress',
             color: '#ffbf00',
             title: 'Fantom Integration',

@@ -22,6 +22,8 @@ import one from 'images/one.png';
 import bsc from 'images/bsc.svg';
 import matic from 'images/matic.png';
 import ethereum from 'images/ethereum.png';
+import huobi from 'images/huobi.png';
+import okex from 'images/okex.webp';
 import coinsbit from 'images/coinsbit.png';
 import laika from '../../../../../images/laikacoin.png';
 import '../../../../../scss/main.scss';
@@ -52,6 +54,8 @@ const Hero = () => {
                         <img src={one} className="hover-animation-chain one"/>
                         <img src={matic} className="hover-animation-chain matic"/>
                         <img src={ethereum} className="hover-animation-chain eth"/>
+                        <img src={huobi} className="hover-animation-chain huobi"/>
+                        <img src={okex} className="hover-animation-chain okex"/>
                         <Typography
                             variant="h2"
                             color="textPrimary"
@@ -134,6 +138,16 @@ const Hero = () => {
                           <MenuItem onClick={handleClose}>
                             <Link underline="none" component="a" color="white" href={links.ethBuyLink}>
                               <img src={ethereum} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>UniSwap
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.huobiBuyLink}>
+                              <img src={huobi} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>MakiSwap
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.okexBuyLink}>
+                              <img src={okex} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>OKExDex
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>

@@ -16,3 +16,7 @@ export const coinsbitLink = 'https://coinsbit.io/trade/LAIKA_mUSDT';
 export const ethExplorerLink = 'https://etherscan.io/token/0x0bfFc5692960Bb043D3216839bDD6e5E64ff1b4e';
 export const ethChartLink = 'https://www.dextools.io/app/uniswap/pair-explorer/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
 export const ethBuyLink = 'https://app.uniswap.org/#/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0x0bfFc5692960Bb043D3216839bDD6e5E64ff1b4e';
+export const huobiExplorerLink = 'https://hecoinfo.com/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
+export const huobiBuyLink = 'https://exchange.makiswap.com/#/swap?inputCurrency=0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f&outputCurrency=0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
+export const okexExplorerLink = 'https://www.oklink.com/okexchain/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
+export const okexBuyLink = 'https://www.okex.com/dex-test/swap';

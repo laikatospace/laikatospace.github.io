@@ -10,6 +10,8 @@ import one from 'images/one.png';
 import bsc from 'images/bsc.svg';
 import matic from 'images/matic.png';
 import ethereum from 'images/ethereum.png';
+import huobi from 'images/huobi.png';
+import okex from 'images/okex.webp';
 import coinsbit from 'images/coinsbit.png';
 import * as links from 'common/Links.js';
 
@@ -115,6 +117,16 @@ const Footer = () => {
           <MenuItem onClick={handleClose}>
             <Link underline="none" component="a" color="white" href={links.ethBuyLink}>
               <img src={ethereum} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>UniSwap
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.huobiBuyLink}>
+              <img src={huobi} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>MakiSwap
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.okexBuyLink}>
+              <img src={okex} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>OKExDex
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>

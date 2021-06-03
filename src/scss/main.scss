@@ -34,20 +34,28 @@
 }
 
 .hover-animation-chain{
-  width: 4vw;
+  width: 3vw;
   transition: all 1s ease;
 
   &.bsc {
-    margin-left: -0.4vw;
-    margin-right: 5vw;
+    margin-left: -0.3vw;
+    margin-right: 3.25vw;
   }
 
   &.one {
-    margin-right: 5vw;
+    margin-right: 3.25vw;
   }
 
   &.matic {
-    margin-right: 5vw;
+    margin-right: 3.25vw;
+  }
+
+  &.eth {
+    margin-right: 3.25vw;
+  }
+
+  &.huobi {
+    margin-right: 3.25vw;
   }
 
   &:hover {
@@ -77,6 +85,14 @@
     }
 
     &.matic {
+      margin-right: 5vw;
+    }
+
+    &.eth {
+      margin-right: 5vw;
+    }
+
+    &.huobi {
       margin-right: 5vw;
     }
 

@@ -3,9 +3,7 @@ import {useTheme} from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Container from 'common/Container';
 import {Features, Footer, Hero, Highlights, Roadmap, Numbers} from './components';
-import spaceDog from "../../../images/spacedog2.png";
-import multidog from "../../../images/multidog.png";
-import laikaBg from "../../../images/LaikaBG.svg";
+import multidog from "../../../images/Laika_plaV2.png";
 
 const Home = () => {
     const theme = useTheme();

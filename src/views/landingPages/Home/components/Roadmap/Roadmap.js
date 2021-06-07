@@ -54,19 +54,29 @@ const Roadmap = () => {
             title: 'Fantom Integration',
         },
         {
-            date: 'Completed',
+            date: 'In Progress',
             color: '#ffbf00',
-            title: 'Laika Academy',
+            title: 'Academy: Library',
         },
         {
             date: 'In Progress',
             color: '#ffbf00',
-            title: 'Laika Stargate',
+            title: 'Academy: News',
         },
         {
             date: 'In Progress',
             color: '#ffbf00',
-            title: 'Laika Forge',
+            title: 'Stargate: Alliances',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Forge: Vaults',
+        },
+        {
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Forge: Farms',
         },
         {
             date: 'In Progress',
@@ -77,6 +87,26 @@ const Roadmap = () => {
             date: 'In Progress',
             color: '#ffbf00',
             title: 'Additional Cross-chain Integration',
+        },
+        {
+            date: 'TBA',
+            title: 'Academy: Earn',
+        },
+        {
+            date: 'TBA',
+            title: 'Academy: Premium',
+        },
+        {
+            date: 'TBA',
+            title: 'Stargate: Launchpad',
+        },
+        {
+            date: 'TBA',
+            title: 'Forge: Charts',
+        },
+        {
+            date: 'TBA',
+            title: 'Stargate: Audits',
         },
         {
             date: 'TBA',

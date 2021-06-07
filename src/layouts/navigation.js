@@ -82,13 +82,13 @@ export const pages = [
         href: 'https://explorer-mainnet.maticvigil.com/address/0x0bfFc5692960Bb043D3216839bDD6e5E64ff1b4e/transactions',
       },
       {
+        title: 'QuickSwap',
+        href: 'https://quickswap.exchange/#/swap?inputCurrency=0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e&outputCurrency=0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
+      },
+      {
         title: 'Dex Guru (Chart)',
         href: 'https://dex.guru/token/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e-polygon',
       },
-      {
-        title: 'QuickSwap',
-        href: 'https://quickswap.exchange/#/swap?inputCurrency=0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e&outputCurrency=0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
-      }
     ],
   },
   {

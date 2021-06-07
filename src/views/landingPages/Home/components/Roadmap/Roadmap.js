@@ -102,11 +102,11 @@ const Roadmap = () => {
         },
         {
             date: 'TBA',
-            title: 'Forge: Charts',
+            title: 'Stargate: Audits',
         },
         {
             date: 'TBA',
-            title: 'Stargate: Audits',
+            title: 'Forge: Charts',
         },
         {
             date: 'TBA',

@@ -5,7 +5,6 @@ import Container from 'common/Container';
 import {Features, Footer, Hero, Highlights, Roadmap, Numbers} from './components';
 import multidog from "../../../images/Laika_plaV2.png";
 import spaceDog from "../../../images/spacedog2.png";
-import multidog from "../../../images/multidog.png";
 import laikaBg from "../../../images/LaikaBG.svg";
 import one from 'images/one.png';
 import avax from 'images/avax.png';

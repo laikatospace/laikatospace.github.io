@@ -49,9 +49,24 @@ const Roadmap = () => {
             title: 'OKEx Integration',
         },
         {
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'Avalanche Integration',
+        },
+        {
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'xDai Integration',
+        },
+        {
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'Fantom Integration',
+        },
+        {
             date: 'In Progress',
             color: '#ffbf00',
-            title: 'Fantom Integration',
+            title: 'Astro Farms',
         },
         {
             date: 'In Progress',

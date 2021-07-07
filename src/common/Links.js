@@ -20,3 +20,12 @@ export const huobiExplorerLink = 'https://hecoinfo.com/address/0x0bffc5692960bb0
 export const huobiBuyLink = 'https://exchange.makiswap.com/#/swap?inputCurrency=0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f&outputCurrency=0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
 export const okexExplorerLink = 'https://www.oklink.com/okexchain/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
 export const okexBuyLink = 'https://www.okex.com/dex-test/swap';
+export const avaxExplorerLink = 'https://cchain.explorer.avax.network/address/0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4/transactions';
+export const avaxChartLink = 'https://info.pangolin.exchange/#/pair/0x2af4b806c1f20a5dfb2089429d340aa3ff3c6a8c';
+export const avaxBuyLink = 'https://app.pangolin.exchange/#/swap?inputCurrency=FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z&amp;outputCurrency=0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4';
+export const xdaiExplorerLink = 'https://blockscout.com/xdai/mainnet/tokens/0xbD8aD53095d32B5e652b3FD26d61c5340126DA10/token-transfers';
+export const xdaiChartLink = 'https://info.honeyswap.org/#/pair/0xcfeec3103f4218fb88a65b16e4c9981a32b2462b';
+export const xdaiBuyLink = 'https://app.honeyswap.org/#/swap?inputCurrency=0xbd8ad53095d32b5e652b3fd26d61c5340126da10&outputCurrency=0xe91d153e0b41518a2ce8dd3d7944fa863463a97d&chainId=100';
+export const fantomExplorerLink = 'https://explorer.fantom.network/';
+export const fantomChartLink = 'https://info.spookyswap.finance/';
+export const fantomBuyLink = 'https://spookyswap.finance/swap';

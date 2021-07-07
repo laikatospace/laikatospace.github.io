@@ -160,6 +160,60 @@ export const pages = [
     ],
   },
   {
+    title: 'AVALANCHE',
+    id: 'avax',
+    pages: [
+      {
+        title: 'Avalanche Explorer',
+        href: 'https://cchain.explorer.avax.network/address/0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4/transactions',
+      },
+      {
+        title: 'Pangolin (Chart)',
+        href: 'https://info.pangolin.exchange/#/pair/0x2af4b806c1f20a5dfb2089429d340aa3ff3c6a8c',
+      },
+      {
+        title: 'PangolinDex',
+        href: 'https://app.pangolin.exchange/#/swap?inputCurrency=FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z&amp;outputCurrency=0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4',
+      }
+    ],
+  },
+  {
+    title: 'XDAI',
+    id: 'xdai',
+    pages: [
+      {
+        title: 'BlockScout (Explorer)',
+        href: 'https://blockscout.com/xdai/mainnet/tokens/0xbD8aD53095d32B5e652b3FD26d61c5340126DA10/token-transfers',
+      },
+      {
+        title: 'HoneySwap Info (Chart)',
+        href: 'https://info.honeyswap.org/#/pair/0xcfeec3103f4218fb88a65b16e4c9981a32b2462b',
+      },
+      {
+        title: 'HoneySwap',
+        href: 'https://app.honeyswap.org/#/swap?inputCurrency=0xbd8ad53095d32b5e652b3fd26d61c5340126da10&outputCurrency=0xe91d153e0b41518a2ce8dd3d7944fa863463a97d&chainId=100',
+      }
+    ],
+  },
+  {
+    title: 'FANTOM',
+    id: 'fantom',
+    pages: [
+      {
+        title: 'Fantom Explorer',
+        href: 'https://explorer.fantom.network/',
+      },
+      {
+        title: 'SpookySwap Info (Chart)',
+        href: 'https://info.spookyswap.finance/',
+      },
+      {
+        title: 'SpookySwap',
+        href: 'https://spookyswap.finance/swap',
+      }
+    ],
+  },
+  {
     title: 'CENTRALIZED EXCHANGES',
     id: 'cex',
     pages: [

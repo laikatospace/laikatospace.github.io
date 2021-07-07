@@ -19,11 +19,14 @@ import discord from 'images/discord.svg';
 import telegram from 'images/telegram.svg';
 import twitter from 'images/twitter.svg';
 import one from 'images/one.png';
-import bsc from 'images/bsc.svg';
+import avax from 'images/avax.png';
+import bsc from 'images/bnb.png';
 import matic from 'images/matic.png';
 import ethereum from 'images/ethereum.png';
 import huobi from 'images/huobi.png';
 import okex from 'images/okex.png';
+import xdai from 'images/xdai.png';
+import ftm from 'images/ftm.png';
 import coinsbit from 'images/coinsbit.png';
 import laika from '../../../../../images/laikacoin.png';
 import '../../../../../scss/main.scss';
@@ -51,15 +54,18 @@ const Hero = () => {
                 <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
                     <Box marginBottom={2}>
                       {isMd && <React.Fragment>
-                        <Box>
+                        <Box className="marginbottom">
                           <img src={bsc} className="hover-animation-chain bsc"/>
                           <img src={one} className="hover-animation-chain one"/>
                           <img src={matic} className="hover-animation-chain matic"/>
+                          <img src={avax} className="hover-animation-chain avax"/>
+                          <img src={ftm} className="hover-animation-chain ftm"/>
                         </Box>
                         <Box>
                           <img src={ethereum} className="hover-animation-chain eth"/>
                           <img src={huobi} className="hover-animation-chain huobi"/>
                           <img src={okex} className="hover-animation-chain okex"/>
+                          <img src={xdai} className="hover-animation-chain xdai"/>
                         </Box>
                       </React.Fragment>}
                       {!isMd && <Box>
@@ -69,6 +75,9 @@ const Hero = () => {
                         <img src={ethereum} className="hover-animation-chain eth"/>
                         <img src={huobi} className="hover-animation-chain huobi"/>
                         <img src={okex} className="hover-animation-chain okex"/>
+                        <img src={avax} className="hover-animation-chain avax"/>
+                        <img src={xdai} className="hover-animation-chain xdai"/>
+                        <img src={ftm} className="hover-animation-chain ftm"/>
                       </Box>}
                         <Typography
                             variant="h2"
@@ -130,42 +139,57 @@ const Hero = () => {
                           onClose={handleClose}
                         >
                           <MenuItem onClick={handleClose}>
-                            <Link underline="none" component="a" color="white" href={links.buyLink}>
+                            <Link underline="none" component="a" color="white" href={links.buyLink} target="_blank">
                               <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>PancakeSwap
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
-                            <Link underline="none" component="a" color="white" href={links.v1BuyLink}>
+                            <Link underline="none" component="a" color="white" href={links.v1BuyLink} target="_blank">
                               <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SnowgeSwap
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
-                            <Link underline="none" component="a" color="white" href={links.maticBuyLink}>
+                            <Link underline="none" component="a" color="white" href={links.maticBuyLink} target="_blank">
                               <img src={matic} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>QuickSwap
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
-                            <Link underline="none" component="a" color="white" href={links.harmonyBuyLink}>
+                            <Link underline="none" component="a" color="white" href={links.harmonyBuyLink} target="_blank">
                               <img src={one} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>ViperSwap
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
-                            <Link underline="none" component="a" color="white" href={links.ethBuyLink}>
+                            <Link underline="none" component="a" color="white" href={links.ethBuyLink} target="_blank">
                               <img src={ethereum} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>UniSwap
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
-                            <Link underline="none" component="a" color="white" href={links.huobiBuyLink}>
+                            <Link underline="none" component="a" color="white" href={links.huobiBuyLink} target="_blank">
                               <img src={huobi} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>MakiSwap
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
-                            <Link underline="none" component="a" color="white" href={links.okexBuyLink}>
+                            <Link underline="none" component="a" color="white" href={links.okexBuyLink} target="_blank">
                               <img src={okex} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>OKExDex
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
-                            <Link underline="none" component="a" color="white" href={links.coinsbitLink}>
+                            <Link underline="none" component="a" color="white" href={links.avaxBuyLink} target="_blank">
+                              <img src={avax} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>PangolinDex
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.xdaiBuyLink} target="_blank">
+                              <img src={xdai} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>HoneySwap
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.fantomBuyLink} target="_blank">
+                              <img src={ftm} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SpookySwap
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.coinsbitLink} target="_blank">
                               <img src={coinsbit} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>CoinsBit
                             </Link>
                           </MenuItem>
@@ -199,8 +223,19 @@ const Hero = () => {
                 >
                     <Box height={'100%'} width={'100%'} maxHeight={600}>
                         {/*<RocketIllustration width={'100%'} height={'100%'} />*/}
-                        <img width={'100%'} height={'100%'} src={laika}/>
+                        {/* <img height={'100%'} src={laika} className="abspos"/> */}
+                        <img width={'100%'} height={'100%'} src={laika} className="hoverscale"/>
+                        {/* <div id="logo-spin-container">
+                          <div class="logo-spin-item" style={{"--d":"0s", "--label":"BINANCE SMART CHAIN"}}><img src={bsc} className="hover-animation-chain"/></div>
+                          <div class="logo-spin-item" style={{"--d":"-4s", "--label":"HARMONY ONE"}}><img src={one} className="hover-animation-chain"/></div>
+                          <div class="logo-spin-item" style={{"--d":"-8s", "--label":"POLYGON"}}><img src={matic} className="hover-animation-chain"/></div>
+                          <div class="logo-spin-item" style={{"--d":"-12s", "--label":"ETHEREUM"}}><img src={ethereum} className="hover-animation-chain"/></div>
+                          <div class="logo-spin-item" style={{"--d":"-16s", "--label":"HUOBI ECO"}}><img src={huobi} className="hover-animation-chain"/></div>
+                          <div class="logo-spin-item" style={{"--d":"-20s", "--label":"OKEx"}}><img src={okex} className="hover-animation-chain"/></div>
+                          <div class="logo-spin-item" style={{"--d":"-11s", "--label":"AVAX"}}><img src={avax} className="hover-animation-chain"/></div>
+                        </div> */}
                     </Box>
+                    {!isMd && <img width={'100%'} height={'100%'} src={laika}/>}
                 </Box>
             </Grid>
         </Grid>

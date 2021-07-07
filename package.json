@@ -39,6 +39,7 @@
     "date-fns": "^2.19.0",
     "formik": "^2.2.6",
     "history": "^5.0.0",
+    "lottie-react": "^2.1.0",
     "node-sass": "^5.0.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",

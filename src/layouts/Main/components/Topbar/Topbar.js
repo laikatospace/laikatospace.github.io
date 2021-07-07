@@ -12,11 +12,14 @@ import laikaLogo from 'images/laikadope.png';
 import whitepaper from 'common/whitepaper.pdf';
 import * as links from 'common/Links.js';
 import one from 'images/one.png';
-import bsc from 'images/bsc.svg';
+import bsc from 'images/bnb.png';
 import matic from 'images/matic.png';
 import ethereum from 'images/ethereum.png';
 import huobi from 'images/huobi.png';
 import okex from 'images/okex.png';
+import avax from 'images/avax.png';
+import ftm from 'images/ftm.png';
+import xdai from 'images/xdai.png';
 import coinsbit from 'images/coinsbit.png';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -38,6 +41,17 @@ const Topbar = ({
   const handleClose = () => {
     setAnchorEl(null);
   };
+
+  const [anchorEl2, setAnchorEl2] = React.useState(null);
+
+  const handleClick2 = (event) => {
+    setAnchorEl2(event.currentTarget);
+  };
+
+  const handleClose2 = () => {
+    setAnchorEl2(null);
+  };
+
   return (
     <Box
       display={'flex'}
@@ -65,7 +79,7 @@ const Topbar = ({
       </Box>
       <Box display="flex" alignItems={'center'}>
         <Hidden mdDown>
-          <Box>
+          <Box marginX={2}>
             <Link underline="none" component="a" href="/" color="textPrimary">
               Home
             </Link>
@@ -82,27 +96,74 @@ const Topbar = ({
             </Link>
           </Box>
           <Box marginX={2}>
-            <Tooltip title="Coming Soon!">
-              <Link underline="none" component="a" href="/" color="textPrimary">
-                Academy<sup style={{color:"#c2185b", fontWeight: 600, fontSize: '12px'}}>TBA</sup>
-              </Link>
+            <Tooltip title="Coming July 11!">
+              <Button
+                variant="outlined"
+                color="secondary"
+                component="a"
+                target="_blank"
+                size="large"
+                aria-controls="simple-menu"
+                aria-haspopup="true"
+                onClick={handleClick}
+              >
+                <Link underline="none" component="a" href="/" color="secondary">
+                  Astro Farms
+                </Link>
+              </Button>
             </Tooltip>
           </Box>
           <Box marginX={2}>
-            <Tooltip title="Coming Soon!">
-              <Link underline="none" component="a" href="/" color="textPrimary">
-                Stargate<sup style={{color:"#c2185b", fontWeight: 600, fontSize: '12px'}}>TBA</sup>
-              </Link>
-            </Tooltip>
+            <Button
+              variant="outlined"
+              color="primary"
+              component="a"
+              target="_blank"
+              size="large"
+              aria-controls="simple-menu-2"
+              aria-haspopup="true"
+              onClick={handleClick2}
+            >
+              Platforms
+            </Button>
+            <Menu
+              id="simple-menu2"
+              className="simple-menu2"
+              anchorEl={anchorEl2}
+              keepMounted
+              open={Boolean(anchorEl2)}
+              onClose={handleClose2}
+            >
+              <MenuItem onClick={handleClose}>
+                <Box marginX={2}>
+                  <Tooltip title="Coming Soon!">
+                    <Link underline="none" component="a" href="/" color="textPrimary">
+                      Academy<sup style={{color:"#c2185b", fontWeight: 600, fontSize: '12px'}}>TBA</sup>
+                    </Link>
+                  </Tooltip>
+                </Box>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Box marginX={2}>
+                  <Tooltip title="Coming Soon!">
+                    <Link underline="none" component="a" href="/" color="textPrimary">
+                      Stargate<sup style={{color:"#c2185b", fontWeight: 600, fontSize: '12px'}}>TBA</sup>
+                    </Link>
+                  </Tooltip>
+                </Box>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Box marginX={2}>
+                  <Tooltip title="Coming Soon!">
+                    <Link underline="none" component="a" href="/" color="textPrimary">
+                      Forge<sup style={{color:"#c2185b", fontWeight: 600, fontSize: '12px'}}>TBA</sup>
+                    </Link>
+                  </Tooltip>
+                </Box>
+              </MenuItem>
+            </Menu>
           </Box>
           <Box marginX={2}>
-            <Tooltip title="Coming Soon!">
-              <Link underline="none" component="a" href="/" color="textPrimary">
-                Forge<sup style={{color:"#c2185b", fontWeight: 600, fontSize: '12px'}}>TBA</sup>
-              </Link>
-            </Tooltip>
-          </Box>
-          <Box>
             <Button
               variant="contained"
               color="primary"
@@ -124,42 +185,57 @@ const Topbar = ({
               onClose={handleClose}
             >
               <MenuItem onClick={handleClose}>
-                <Link underline="none" component="a" color="white" href={links.buyLink}>
+                <Link underline="none" component="a" color="white" href={links.buyLink} target="_blank">
                   <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>PancakeSwap
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>
-                <Link underline="none" component="a" color="white" href={links.v1BuyLink}>
+                <Link underline="none" component="a" color="white" href={links.v1BuyLink} target="_blank">
                   <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SnowgeSwap
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>
-                <Link underline="none" component="a" color="white" href={links.maticBuyLink}>
+                <Link underline="none" component="a" color="white" href={links.maticBuyLink} target="_blank">
                   <img src={matic} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>QuickSwap
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>
-                <Link underline="none" component="a" color="white" href={links.harmonyBuyLink}>
+                <Link underline="none" component="a" color="white" href={links.harmonyBuyLink} target="_blank">
                   <img src={one} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>ViperSwap
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>
-                <Link underline="none" component="a" color="white" href={links.ethBuyLink}>
+                <Link underline="none" component="a" color="white" href={links.ethBuyLink} target="_blank">
                   <img src={ethereum} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>UniSwap
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>
-                <Link underline="none" component="a" color="white" href={links.huobiBuyLink}>
+                <Link underline="none" component="a" color="white" href={links.huobiBuyLink} target="_blank">
                   <img src={huobi} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>MakiSwap
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>
-                <Link underline="none" component="a" color="white" href={links.okexBuyLink}>
+                <Link underline="none" component="a" color="white" href={links.okexBuyLink} target="_blank">
                   <img src={okex} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>OKExDex
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>
-                <Link underline="none" component="a" color="white" href={links.coinsbitLink}>
+                <Link underline="none" component="a" color="white" href={links.avaxBuyLink} target="_blank">
+                  <img src={avax} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>PangolinDex
+                </Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link underline="none" component="a" color="white" href={links.xdaiBuyLink} target="_blank">
+                  <img src={xdai} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>HoneySwap
+                </Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link underline="none" component="a" color="white" href={links.fantomBuyLink} target="_blank">
+                  <img src={ftm} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SpookySwap
+                </Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link underline="none" component="a" color="white" href={links.coinsbitLink} target="_blank">
                   <img src={coinsbit} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>CoinsBit
                 </Link>
               </MenuItem>

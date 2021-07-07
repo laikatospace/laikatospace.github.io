@@ -39,17 +39,11 @@ const Features = () => {
                     color={'textSecondary'}
                     align={'center'}
                 >
-                    Laika was a Soviet space dog which became one of the first animals in space, and the first animal to
-                    orbit the Earth. Laika, a stray mongrel from the streets of Moscow, was selected to be the occupant
-                    of the Soviet spacecraft Sputnik 2 that was launched into outer space on 3 November 1957. Although
-                    Laika had a tragic end, her contribution to the advances of scientific research is immeasurable and
-                    her sacrifice has helped keep many other humans and animals safe.
-                    <br/> <br/>
-                    Laika is our project’s mascot, however our goal is to honor all animals used in research and testing
-                    as well as bring awareness to the sacrifices these animals have made for humanity. We hope that by
-                    building an amazing community, we can not only honor animals like Laika but also continue to help
-                    those in need as well as educate the general population, be it via our exciting tokenomics,
-                    community content, upcoming charities or any other means.
+                Laika was a Soviet space dog which became one of the first animals in space, and the first animal to orbit the Earth.  In the spirit of Laika, our project's core values are to learn, explore, and innovate as we traverse the everchanging world of DeFi.
+                <br/><br/>
+                Laika Protocol's goal is simple - to go where no man, or dog, has gone before.  Laika originally started as a second-generation deflationary token on BSC, which included the first of its kind scalable auto LPs as well as a max transaction limit to prevent price manipulation. Since its inception, it has grown into a full multi-chain DeFi ecosystem. Laika Protocol has already been bridged to over 9 chains, with more to come in the future!
+                <br/><br/>
+                Laika’s long term plans include several other features such as trustless bridge deployment for tokens across all currently supported chains, a multi-chain oracle, several new platforms, and more!
                 </Typography>
             </Box>
             <Box

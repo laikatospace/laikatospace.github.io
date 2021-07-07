@@ -7,11 +7,14 @@ import Link from '@material-ui/core/Link';
 import MenuItem from '@material-ui/core/MenuItem';
 import Typography from '@material-ui/core/Typography';
 import one from 'images/one.png';
-import bsc from 'images/bsc.svg';
+import bsc from 'images/bnb.png';
 import matic from 'images/matic.png';
 import ethereum from 'images/ethereum.png';
 import huobi from 'images/huobi.png';
 import okex from 'images/okex.png';
+import avax from 'images/avax.png';
+import xdai from 'images/xdai.png';
+import ftm from 'images/ftm.png';
 import coinsbit from 'images/coinsbit.png';
 import * as links from 'common/Links.js';
 
@@ -95,42 +98,57 @@ const Footer = () => {
           onClose={handleClose}
         >
           <MenuItem onClick={handleClose}>
-            <Link underline="none" component="a" color="white" href={links.buyLink}>
+            <Link underline="none" component="a" color="white" href={links.buyLink} target="_blank">
               <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>PancakeSwap
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Link underline="none" component="a" color="white" href={links.v1BuyLink}>
+            <Link underline="none" component="a" color="white" href={links.v1BuyLink} target="_blank">
               <img src={bsc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SnowgeSwap
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Link underline="none" component="a" color="white" href={links.maticBuyLink}>
+            <Link underline="none" component="a" color="white" href={links.maticBuyLink} target="_blank">
               <img src={matic} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>QuickSwap
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Link underline="none" component="a" color="white" href={links.harmonyBuyLink}>
+            <Link underline="none" component="a" color="white" href={links.harmonyBuyLink} target="_blank">
               <img src={one} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>ViperSwap
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Link underline="none" component="a" color="white" href={links.ethBuyLink}>
+            <Link underline="none" component="a" color="white" href={links.ethBuyLink} target="_blank">
               <img src={ethereum} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>UniSwap
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Link underline="none" component="a" color="white" href={links.huobiBuyLink}>
+            <Link underline="none" component="a" color="white" href={links.huobiBuyLink} target="_blank">
               <img src={huobi} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>MakiSwap
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Link underline="none" component="a" color="white" href={links.okexBuyLink}>
+            <Link underline="none" component="a" color="white" href={links.okexBuyLink} target="_blank">
               <img src={okex} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>OKExDex
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Link underline="none" component="a" color="white" href={links.coinsbitLink}>
+            <Link underline="none" component="a" color="white" href={links.avaxBuyLink} target="_blank">
+              <img src={avax} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>PangolinDex
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.xdaiBuyLink} target="_blank">
+              <img src={xdai} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>HoneySwap
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.fantomBuyLink} target="_blank">
+              <img src={ftm} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SpookySwap
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.coinsbitLink} target="_blank">
               <img src={coinsbit} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>CoinsBit
             </Link>
           </MenuItem>

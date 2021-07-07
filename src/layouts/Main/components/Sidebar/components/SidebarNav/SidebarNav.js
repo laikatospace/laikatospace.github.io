@@ -9,6 +9,16 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import whitepaper from 'common/whitepaper.pdf';
+import one from 'images/one.png';
+import avax from 'images/avax.png';
+import bsc from 'images/bnb.png';
+import matic from 'images/matic.png';
+import ethereum from 'images/ethereum.png';
+import huobi from 'images/huobi.png';
+import okex from 'images/okex.png';
+import xdai from 'images/xdai.png';
+import ftm from 'images/ftm.png';
+import coinsbit from 'images/coinsbit.png';
 import * as links from 'common/Links.js';
 
 const SidebarNav = ({ pages, onClose }) => {
@@ -17,6 +27,19 @@ const SidebarNav = ({ pages, onClose }) => {
   useEffect(() => {
     setActiveLink(window && window.location ? window.location.pathname : '');
   }, []);
+
+  const logos = {
+    'bsc': bsc,
+    'eth': ethereum,
+    'one': one,
+    'matic': matic,
+    'huobi': huobi,
+    'okex': okex,
+    'avax': avax,
+    'xdai': xdai,
+    'fantom': ftm,
+    "cex": coinsbit
+  }
 
   return (
     <Box>
@@ -42,7 +65,7 @@ const SidebarNav = ({ pages, onClose }) => {
                   display: 'block',
                 }}
               >
-                {item.title}
+                {logos[item.id] && <img src={logos[item.id]} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>}{item.title}
               </Typography>
               <Grid container spacing={1}>
                 {item.pages.map((p, i) => (
@@ -111,11 +134,23 @@ const SidebarNav = ({ pages, onClose }) => {
         </Box>
         <Box marginTop={1}>
           <Button
+            variant="outlined"
+            color="secondary"
+            fullWidth
+            component="a"
+            target="blank"
+            href="/"
+          >
+            Astro Farms<sup><sup style={{color:"white"}}>July 11</sup></sup>
+          </Button>
+        </Box>
+        <Box marginTop={1}>
+          <Button
             variant="contained"
             color="primary"
             fullWidth
             component="a"
-            target="blank"
+            target="_blank"
             href={links.buyLink}
           >
             Purchase now

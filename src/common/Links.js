@@ -19,6 +19,7 @@ export const ethBuyLink = 'https://app.uniswap.org/#/swap?inputCurrency=0xc02aaa
 export const huobiExplorerLink = 'https://hecoinfo.com/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
 export const huobiBuyLink = 'https://exchange.makiswap.com/#/swap?inputCurrency=0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f&outputCurrency=0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
 export const okexExplorerLink = 'https://www.oklink.com/okexchain/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
+export const okexChartLink = 'https://info.pandaex.org/home';
 export const okexBuyLink = 'https://www.okex.com/dex-test/swap';
 export const avaxExplorerLink = 'https://cchain.explorer.avax.network/address/0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4/transactions';
 export const avaxChartLink = 'https://info.pangolin.exchange/#/pair/0x2af4b806c1f20a5dfb2089429d340aa3ff3c6a8c';
@@ -26,6 +27,15 @@ export const avaxBuyLink = 'https://app.pangolin.exchange/#/swap?inputCurrency=F
 export const xdaiExplorerLink = 'https://blockscout.com/xdai/mainnet/tokens/0xbD8aD53095d32B5e652b3FD26d61c5340126DA10/token-transfers';
 export const xdaiChartLink = 'https://info.honeyswap.org/#/pair/0xcfeec3103f4218fb88a65b16e4c9981a32b2462b';
 export const xdaiBuyLink = 'https://app.honeyswap.org/#/swap?inputCurrency=0xbd8ad53095d32b5e652b3fd26d61c5340126da10&outputCurrency=0xe91d153e0b41518a2ce8dd3d7944fa863463a97d&chainId=100';
-export const fantomExplorerLink = 'https://explorer.fantom.network/';
-export const fantomChartLink = 'https://info.spookyswap.finance/';
-export const fantomBuyLink = 'https://spookyswap.finance/swap';
+export const fantomExplorerLink = 'https://ftmscan.com/token/0xcBdbFc61Aa905Ed9854898760f0e98417BcC4628';
+export const fantomChartLink = 'https://info.spiritswap.finance/pair/0xdceba556025d586215b737b103c74469fa6253d0';
+export const fantomBuyLink = 'https://swap.spiritswap.finance/#/swap?outputCurrency=0xcBdbFc61Aa905Ed9854898760f0e98417BcC4628';
+
+export const polygonBridge = 'https://exchange.chainswap.com/';
+export const harmonyBridge = 'https://bridge.harmony.one/busd';
+export const ethereumBridge = 'https://exchange.chainswap.com/';
+export const huobiEcoBridge = 'https://exchange.chainswap.com/';
+export const okexBridge = 'https://exchange.chainswap.com/';
+export const avalancheBridge = 'https://anyswap.exchange/bridge';
+export const xdaiBridge = 'https://omni.xdaichain.com/bridge';
+export const fantomBridge = 'https://app.tosdis.finance/bridgeFantom';

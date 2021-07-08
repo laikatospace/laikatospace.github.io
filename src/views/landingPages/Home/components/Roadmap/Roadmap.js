@@ -71,31 +71,6 @@ const Roadmap = () => {
         {
             date: 'In Progress',
             color: '#ffbf00',
-            title: 'Academy: Library',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
-            title: 'Academy: News',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
-            title: 'Stargate: Alliances',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
-            title: 'Forge: Vaults',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
-            title: 'Forge: Farms',
-        },
-        {
-            date: 'In Progress',
-            color: '#ffbf00',
             title: 'Second Major Exchange Listing',
         },
         {
@@ -104,24 +79,19 @@ const Roadmap = () => {
             title: 'Additional Cross-chain Integration',
         },
         {
-            date: 'TBA',
-            title: 'Academy: Earn',
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Academy',
         },
         {
-            date: 'TBA',
-            title: 'Academy: Premium',
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Stargate',
         },
         {
-            date: 'TBA',
-            title: 'Stargate: Launchpad',
-        },
-        {
-            date: 'TBA',
-            title: 'Stargate: Audits',
-        },
-        {
-            date: 'TBA',
-            title: 'Forge: Charts',
+            date: 'In Progress',
+            color: '#ffbf00',
+            title: 'Forge',
         },
         {
             date: 'TBA',

@@ -48,6 +48,16 @@ const Hero = () => {
       setAnchorEl(null);
     };
 
+    const [anchorEl2, setAnchorEl2] = React.useState(null);
+
+    const handleClick2 = (event) => {
+      setAnchorEl2(event.currentTarget);
+    };
+
+    const handleClose2 = () => {
+      setAnchorEl2(null);
+    };
+
     return (
         <Grid container spacing={4}>
             <Grid item container alignItems={'center'} xs={12} md={6}>
@@ -191,6 +201,69 @@ const Hero = () => {
                           <MenuItem onClick={handleClose}>
                             <Link underline="none" component="a" color="white" href={links.coinsbitLink} target="_blank">
                               <img src={coinsbit} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>CoinsBit
+                            </Link>
+                          </MenuItem>
+                        </Menu>
+                        <Button
+                            component={'a'}
+                            variant="outlined"
+                            color="primary"
+                            size="large"
+                            fullWidth={isMd ? false : true}
+                            target={'_blank'}
+                            aria-controls="simple-menu2"
+                            aria-haspopup="true"
+                            onClick={handleClick2}
+                            style={isMd ? {marginLeft: "1vw"} : {}}
+                        >
+                            Bridge
+                        </Button>
+                        <Menu
+                          id="simple-menu2"
+                          className="simple-menu2"
+                          anchorEl={anchorEl2}
+                          keepMounted
+                          open={Boolean(anchorEl2)}
+                          onClose={handleClose2}
+                        >
+                          <MenuItem onClick={handleClose2}>
+                            <Link underline="none" component="a" color="white" href={links.polygonBridge} target="_blank">
+                              <img src={matic} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Polygon
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose2}>
+                            <Link underline="none" component="a" color="white" href={links.harmonyBridge} target="_blank">
+                              <img src={one} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Harmony
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose2}>
+                            <Link underline="none" component="a" color="white" href={links.ethereumBridge} target="_blank">
+                              <img src={ethereum} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Ethereum
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose2}>
+                            <Link underline="none" component="a" color="white" href={links.huobiEcoBridge} target="_blank">
+                              <img src={huobi} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Huobi Eco
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose2}>
+                            <Link underline="none" component="a" color="white" href={links.okexBridge} target="_blank">
+                              <img src={okex} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>OKEx
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose2}>
+                            <Link underline="none" component="a" color="white" href={links.avalancheBridge} target="_blank">
+                              <img src={avax} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Avalanche
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose2}>
+                            <Link underline="none" component="a" color="white" href={links.xdaiBridge} target="_blank">
+                              <img src={xdai} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>xDai
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose2}>
+                            <Link underline="none" component="a" color="white" href={links.fantomBridge} target="_blank">
+                              <img src={ftm} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Fantom
                             </Link>
                           </MenuItem>
                         </Menu>

@@ -28,6 +28,12 @@ const getTheme = (mode, paletteType) =>
               fontWeight: 600,
             },
             containedSecondary: mode === 'light' ? { color: 'white' } : {},
+            outlinedPrimary: {
+              color: '#e91e63',
+              '&:hover': {
+                color: '#EEEEEF',
+              },
+            },
           },
         },
       },

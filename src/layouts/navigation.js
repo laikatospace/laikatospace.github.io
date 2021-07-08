@@ -154,6 +154,10 @@ export const pages = [
         href: 'https://www.oklink.com/okexchain/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e',
       },
       {
+        title: 'Pandaex Info (Chart)',
+        href: 'https://info.pandaex.org/home',
+      },
+      {
         title: 'PandaSwap',
         href: 'https://pandaex.org/#/swap?inputCurrency=0x8f8526dbfd6e38e3d8307702ca8469bae6c56c15&outputCurrency=0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e',
       }
@@ -201,15 +205,15 @@ export const pages = [
     pages: [
       {
         title: 'Fantom Explorer',
-        href: 'https://explorer.fantom.network/',
+        href: 'https://ftmscan.com/token/0xcBdbFc61Aa905Ed9854898760f0e98417BcC4628',
       },
       {
         title: 'SpookySwap Info (Chart)',
-        href: 'https://info.spookyswap.finance/',
+        href: 'https://info.spiritswap.finance/pair/0xdceba556025d586215b737b103c74469fa6253d0',
       },
       {
-        title: 'SpookySwap',
-        href: 'https://spookyswap.finance/swap',
+        title: 'SpiritSwap',
+        href: 'https://swap.spiritswap.finance/#/swap?outputCurrency=0xcBdbFc61Aa905Ed9854898760f0e98417BcC4628',
       }
     ],
   },

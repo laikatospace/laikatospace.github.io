@@ -33,6 +33,9 @@ const Topbar = ({
   const theme = useTheme();
 
   const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorEl2, setAnchorEl2] = React.useState(null);
+  const [anchorElBridge, setAnchorElBridge] = React.useState(null);
+
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -42,14 +45,20 @@ const Topbar = ({
     setAnchorEl(null);
   };
 
-  const [anchorEl2, setAnchorEl2] = React.useState(null);
-
   const handleClick2 = (event) => {
     setAnchorEl2(event.currentTarget);
   };
 
   const handleClose2 = () => {
     setAnchorEl2(null);
+  };
+
+  const handleClickBridge = (event) => {
+    setAnchorElBridge(event.currentTarget);
+  };
+
+  const handleCloseBridge = () => {
+    setAnchorElBridge(null);
   };
 
   return (
@@ -80,11 +89,6 @@ const Topbar = ({
       <Box display="flex" alignItems={'center'}>
         <Hidden mdDown>
           <Box marginX={2}>
-            <Link underline="none" component="a" href="/" color="textPrimary">
-              Home
-            </Link>
-          </Box>
-          <Box marginX={2}>
             <Link
               underline="none"
               component="a"
@@ -96,36 +100,19 @@ const Topbar = ({
             </Link>
           </Box>
           <Box marginX={2}>
-            <Tooltip title="Coming July 11!">
-              <Button
-                variant="outlined"
-                color="secondary"
-                component="a"
-                target="_blank"
-                size="large"
-                aria-controls="simple-menu"
-                aria-haspopup="true"
-                onClick={handleClick}
-              >
-                <Link underline="none" component="a" href="/" color="secondary">
-                  Astro Farms
-                </Link>
-              </Button>
-            </Tooltip>
-          </Box>
-          <Box marginX={2}>
-            <Button
-              variant="outlined"
-              color="primary"
+            <Link
+              underline="none"
+              color="#ffffff"
               component="a"
               target="_blank"
               size="large"
               aria-controls="simple-menu-2"
               aria-haspopup="true"
               onClick={handleClick2}
+              style={{cursor: 'pointer'}}
             >
               Platforms
-            </Button>
+            </Link>
             <Menu
               id="simple-menu2"
               className="simple-menu2"
@@ -162,6 +149,88 @@ const Topbar = ({
                 </Box>
               </MenuItem>
             </Menu>
+          </Box>
+          <Box marginX={2}>
+              <Link
+                underline="none"
+                color="#ffffff"
+                component="a"
+                target="_blank"
+                size="large"
+                aria-controls="simple-menu-bridge"
+                aria-haspopup="true"
+                onClick={handleClickBridge}
+                style={{cursor: 'pointer'}}
+              >
+                Bridges
+              </Link>
+              <Menu
+                id="simple-menu-bridge"
+                className="simple-menu-bridge"
+                anchorEl={anchorElBridge}
+                keepMounted
+                open={Boolean(anchorElBridge)}
+                onClose={handleCloseBridge}
+              >
+                <MenuItem onClick={handleCloseBridge}>
+                  <Link underline="none" component="a" color="white" href={links.polygonBridge} target="_blank">
+                    <img src={matic} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Polygon
+                  </Link>
+                </MenuItem>
+                <MenuItem onClick={handleCloseBridge}>
+                  <Link underline="none" component="a" color="white" href={links.harmonyBridge} target="_blank">
+                    <img src={one} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Harmony
+                  </Link>
+                </MenuItem>
+                <MenuItem onClick={handleCloseBridge}>
+                  <Link underline="none" component="a" color="white" href={links.ethereumBridge} target="_blank">
+                    <img src={ethereum} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Ethereum
+                  </Link>
+                </MenuItem>
+                <MenuItem onClick={handleCloseBridge}>
+                  <Link underline="none" component="a" color="white" href={links.huobiEcoBridge} target="_blank">
+                    <img src={huobi} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Huobi Eco
+                  </Link>
+                </MenuItem>
+                <MenuItem onClick={handleCloseBridge}>
+                  <Link underline="none" component="a" color="white" href={links.okexBridge} target="_blank">
+                    <img src={okex} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>OKEx
+                  </Link>
+                </MenuItem>
+                <MenuItem onClick={handleCloseBridge}>
+                  <Link underline="none" component="a" color="white" href={links.avalancheBridge} target="_blank">
+                    <img src={avax} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Avalanche
+                  </Link>
+                </MenuItem>
+                <MenuItem onClick={handleCloseBridge}>
+                  <Link underline="none" component="a" color="white" href={links.xdaiBridge} target="_blank">
+                    <img src={xdai} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>xDai
+                  </Link>
+                </MenuItem>
+                <MenuItem onClick={handleCloseBridge}>
+                  <Link underline="none" component="a" color="white" href={links.fantomBridge} target="_blank">
+                    <img src={ftm} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Fantom
+                  </Link>
+                </MenuItem>
+              </Menu>
+          </Box>
+          <Box marginX={2}>
+            <Tooltip title="Coming July 11!">
+              <Button
+                variant="outlined"
+                color="secondary"
+                component="a"
+                target="_blank"
+                size="large"
+                aria-controls="simple-menu"
+                aria-haspopup="true"
+                onClick={handleClick}
+              >
+                <Link underline="none" component="a" href="/" color="secondary">
+                  Astro Farms
+                </Link>
+              </Button>
+            </Tooltip>
           </Box>
           <Box marginX={2}>
             <Button

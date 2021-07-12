@@ -141,7 +141,7 @@ const SidebarNav = ({ pages, onClose }) => {
             target="blank"
             href="/"
           >
-            Astro Farms<sup><sup style={{color:"white"}}>July 11</sup></sup>
+            Astro Farms<sup><sup style={{color:"white"}}>Soon</sup></sup>
           </Button>
         </Box>
         <Box marginTop={1}>

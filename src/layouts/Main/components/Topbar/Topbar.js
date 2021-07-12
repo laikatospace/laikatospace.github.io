@@ -215,7 +215,7 @@ const Topbar = ({
               </Menu>
           </Box>
           <Box marginX={2}>
-            <Tooltip title="Coming July 11!">
+            <Tooltip title="Coming Soon!">
               <Button
                 variant="outlined"
                 color="secondary"

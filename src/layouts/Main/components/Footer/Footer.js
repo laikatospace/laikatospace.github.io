@@ -95,7 +95,7 @@ const Footer = () => (
             </Tooltip>
           </Box>
           <Box marginTop={1} marginRight={2}>
-            <Tooltip title="Coming July 11!">
+            <Tooltip title="Coming Soon!">
               <Link
                 underline="none"
                 component="a"
@@ -103,7 +103,7 @@ const Footer = () => (
                 color="textPrimary"
                 variant={'subtitle2'}
               >
-              Astro Farms<sup style={{color:"#20fbff"}}>July 11</sup>
+              Astro Farms<sup style={{color:"#20fbff"}}>Soon</sup>
               </Link>
             </Tooltip>
           </Box>

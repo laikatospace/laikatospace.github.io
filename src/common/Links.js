@@ -43,4 +43,4 @@ export const okexBridge = 'https://exchange.chainswap.com/';
 export const avalancheBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4&network=avax';
 export const xdaiBridge = 'https://omni.xdaichain.com/bridge';
 export const fantomBridge = 'https://anyswap.exchange/bridge?inputCurrency=0xaeddc4a469ace97e90c605e3f52eb89620e305c0&network=fantom';
-export const kccBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8&network=kcc';
+export const kccBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8&network=kcs';

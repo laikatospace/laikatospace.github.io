@@ -64,6 +64,11 @@ const Roadmap = () => {
             title: 'Fantom Integration',
         },
         {
+            date: 'Completed',
+            color: '#32cd80',
+            title: 'KCC Integration',
+        },
+        {
             date: 'In Progress',
             color: '#ffbf00',
             title: 'Astro Farms',

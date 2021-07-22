@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1fcfe78.chunk.css",
-    "main.js": "/static/js/main.a7e74c68.chunk.js",
+    "main.css": "/static/css/main.97710fa6.chunk.css",
+    "main.js": "/static/js/main.6b8abfea.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.4f02395a.js",
     "static/css/2.b56e9696.chunk.css": "/static/css/2.b56e9696.chunk.css",
     "static/js/2.97a23c2e.chunk.js": "/static/js/2.97a23c2e.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/ftm.40755d1e.png": "/static/media/ftm.40755d1e.png",
     "static/media/github.bb432a13.svg": "/static/media/github.bb432a13.svg",
     "static/media/huobi.d9d231e5.png": "/static/media/huobi.d9d231e5.png",
+    "static/media/kcc.2f11ceaa.svg": "/static/media/kcc.2f11ceaa.svg",
     "static/media/laikacoin.aea10919.png": "/static/media/laikacoin.aea10919.png",
     "static/media/laikadope.fa20afb6.png": "/static/media/laikadope.fa20afb6.png",
     "static/media/laikalogo.9a95a6e8.png": "/static/media/laikalogo.9a95a6e8.png",
@@ -39,7 +40,7 @@
     "static/js/runtime-main.4f02395a.js",
     "static/css/2.b56e9696.chunk.css",
     "static/js/2.97a23c2e.chunk.js",
-    "static/css/main.c1fcfe78.chunk.css",
-    "static/js/main.a7e74c68.chunk.js"
+    "static/css/main.97710fa6.chunk.css",
+    "static/js/main.6b8abfea.chunk.js"
   ]
 }

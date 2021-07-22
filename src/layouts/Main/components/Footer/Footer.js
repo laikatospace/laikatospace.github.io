@@ -95,15 +95,15 @@ const Footer = () => (
             </Tooltip>
           </Box>
           <Box marginTop={1} marginRight={2}>
-            <Tooltip title="Coming Soon!">
+            <Tooltip title="Live Now!">
               <Link
                 underline="none"
                 component="a"
-                href="/"
+                href="http://astroprotocol.com"
                 color="textPrimary"
                 variant={'subtitle2'}
               >
-              Astro Farms<sup style={{color:"#20fbff"}}>Soon</sup>
+              Astro Farms<sup style={{color:"#20fbff"}}>LIVE</sup>
               </Link>
             </Tooltip>
           </Box>

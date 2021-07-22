@@ -69,6 +69,10 @@
     margin-right: 3.25vw;
   }
 
+  &.ftm {
+    margin-right: 3.25vw;
+  }
+
   &:hover {
     transform: scale(1.1);
     transition: all 1s ease;
@@ -76,11 +80,11 @@
 }
 
 @media (min-width: 960px) {
-  .hover-animation-chain {
-    &.eth {
-      margin-left: 3.25vw;
-    }
-  }
+  // .hover-animation-chain {
+  //   &.eth {
+  //     margin-left: 3.25vw;
+  //   }
+  // }
 }
 
 .marginbottom {
@@ -123,6 +127,10 @@
       margin-right: 5vw;
     }
 
+    &.ftm {
+      margin-right: 5vw;
+    }
+
     &:hover {
       transform: scale(1.1);
       transition: all 1s ease;
@@ -155,7 +163,7 @@
   margin: 0 auto;
   text-align: center;
   width: 15vw;
-  animation: orbit-animation 28s var(--d,0s) linear infinite;
+  animation: orbit-animation 31s var(--d,0s) linear infinite;
   // -webkit-animation-name: orbit-animation;
   // -webkit-animation-duration: 5s;
   // -webkit-animation-delay: var(--d,0s);

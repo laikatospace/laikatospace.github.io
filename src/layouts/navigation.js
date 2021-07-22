@@ -79,15 +79,15 @@ export const pages = [
     pages: [
       {
         title: 'Vigil (Explorer)',
-        href: 'https://explorer-mainnet.maticvigil.com/address/0x0bfFc5692960Bb043D3216839bDD6e5E64ff1b4e/transactions',
+        href: 'https://polygonscan.com/token/0x468003b688943977e6130f4f68f23aad939a1040',
       },
       {
         title: 'QuickSwap',
-        href: 'https://quickswap.exchange/#/swap?inputCurrency=0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e&outputCurrency=0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
+        href: 'https://quickswap.exchange/#/swap?inputCurrency=0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270&outputCurrency=0x468003b688943977e6130f4f68f23aad939a1040',
       },
       {
-        title: 'Dex Guru (Chart)',
-        href: 'https://dex.guru/token/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e-polygon',
+        title: 'QuickSwap (Chart)',
+        href: 'https://info.quickswap.exchange/pair/0x34ff130886c3ff8d11837ce719ff9468c65e46f5',
       },
     ],
   },
@@ -115,15 +115,15 @@ export const pages = [
     pages: [
       {
         title: 'EtherScan (Explorer)',
-        href: 'https://etherscan.io/token/0x0bfFc5692960Bb043D3216839bDD6e5E64ff1b4e',
+        href: 'https://etherscan.io/token/0xcb58418aa51ba525aef0fe474109c0354d844b7c',
       },
       {
         title: 'UniSwap',
-        href: 'https://app.uniswap.org/#/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0x0bfFc5692960Bb043D3216839bDD6e5E64ff1b4e',
+        href: 'https://app.uniswap.org/#/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0xcb58418aa51ba525aef0fe474109c0354d844b7c',
       },
       {
         title: 'UniSwap (Chart)',
-        href: 'https://info.uniswap.org/#/pools/0x83a1ccda053b7a9c696c532eb3555ecd7cca8a18',
+        href: 'https://info.uniswap.org/#/pools/0x16811ea4c99b135e517d6fee60f76eebdd9f9a70',
       },
     ],
   },
@@ -133,15 +133,15 @@ export const pages = [
     pages: [
       {
         title: 'HecoInfo (Explorer)',
-        href: 'https://hecoinfo.com/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e',
+        href: 'https://hecoinfo.com/address/0x7c598c96d02398d89fbcb9d41eab3df0c16f227d',
       },
       {
         title: 'MakiSwap',
-        href: 'https://exchange.makiswap.com/#/swap?inputCurrency=0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f&outputCurrency=0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e',
+        href: 'https://exchange.makiswap.com/#/swap?inputCurrency=0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f&outputCurrency=0x7c598c96d02398d89fbcb9d41eab3df0c16f227d',
       },
       {
         title: 'MakiSwap (Chart)',
-        href: 'https://info.makiswap.com/pair/0xa8de6f26fd14820a35bdeb2e5370491f4bd3a7b4',
+        href: 'https://info.makiswap.com/pairs',
       }
     ],
   },
@@ -205,15 +205,33 @@ export const pages = [
     pages: [
       {
         title: 'Fantom Explorer',
-        href: 'https://ftmscan.com/token/0xcBdbFc61Aa905Ed9854898760f0e98417BcC4628',
+        href: 'https://ftmscan.com/token/0xaeddc4a469ace97e90c605e3f52eb89620e305c0',
       },
       {
         title: 'SpookySwap Info (Chart)',
-        href: 'https://info.spiritswap.finance/pair/0xdceba556025d586215b737b103c74469fa6253d0',
+        href: 'https://info.spiritswap.finance/pairs',
       },
       {
         title: 'SpiritSwap',
-        href: 'https://swap.spiritswap.finance/#/swap?outputCurrency=0xcBdbFc61Aa905Ed9854898760f0e98417BcC4628',
+        href: 'https://swap.spiritswap.finance/#/swap?outputCurrency=0xaeddc4a469ace97e90c605e3f52eb89620e305c0',
+      }
+    ],
+  },
+  {
+    title: 'KCC',
+    id: 'kcc',
+    pages: [
+      {
+        title: 'KCC Explorer',
+        href: 'https://explorer.kcc.io/en/token/0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8',
+      },
+      {
+        title: 'KuSwap Info (Chart)',
+        href: 'https://kuswap.info/#/pair/0x599411e6bed35495e5df2e68a9de2707b97bd323',
+      },
+      {
+        title: 'KuSwap',
+        href: 'https://kuswap.finance/#/swap?inputCurrency=0x4446fc4eb47f2f6586f9faab68b3498f86c07521&outputCurrency=0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8',
       }
     ],
   },

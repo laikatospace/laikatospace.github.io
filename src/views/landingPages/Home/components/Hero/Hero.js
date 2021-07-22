@@ -10,7 +10,6 @@ import Link from '@material-ui/core/Link';
 import MenuItem from '@material-ui/core/MenuItem';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import RocketIllustration from 'svg/illustrations/Rocket';
 import bscscan from 'images/bscscan.svg';
 import github from 'images/github.svg';
 import medium from 'images/medium.svg';
@@ -27,6 +26,7 @@ import huobi from 'images/huobi.png';
 import okex from 'images/okex.png';
 import xdai from 'images/xdai.png';
 import ftm from 'images/ftm.png';
+import kcc from 'images/kcc.svg';
 import coinsbit from 'images/coinsbit.png';
 import laika from '../../../../../images/laikacoin.png';
 import '../../../../../scss/main.scss';
@@ -76,6 +76,7 @@ const Hero = () => {
                           <img src={huobi} className="hover-animation-chain huobi"/>
                           <img src={okex} className="hover-animation-chain okex"/>
                           <img src={xdai} className="hover-animation-chain xdai"/>
+                          <img src={kcc} className="hover-animation-chain kcc"/>
                         </Box>
                       </React.Fragment>}
                       {!isMd && <Box>
@@ -88,6 +89,7 @@ const Hero = () => {
                         <img src={avax} className="hover-animation-chain avax"/>
                         <img src={xdai} className="hover-animation-chain xdai"/>
                         <img src={ftm} className="hover-animation-chain ftm"/>
+                        <img src={kcc} className="hover-animation-chain kcc"/>
                       </Box>}
                         <Typography
                             variant="h2"
@@ -199,6 +201,11 @@ const Hero = () => {
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.kccBuyLink} target="_blank">
+                              <img src={kcc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>KuSwap
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
                             <Link underline="none" component="a" color="white" href={links.coinsbitLink} target="_blank">
                               <img src={coinsbit} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>CoinsBit
                             </Link>
@@ -266,6 +273,11 @@ const Hero = () => {
                               <img src={ftm} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Fantom
                             </Link>
                           </MenuItem>
+                          <MenuItem onClick={handleClose2}>
+                            <Link underline="none" component="a" color="white" href={links.kccBridge} target="_blank">
+                              <img src={kcc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>KCC
+                            </Link>
+                          </MenuItem>
                         </Menu>
                     </Box>
                     <Box display="flex" justifyContent={{xs: 'center', md: 'flex-start'}}
@@ -295,7 +307,6 @@ const Hero = () => {
                     alignItems={'center'}
                 >
                     <Box height={'100%'} width={'100%'} maxHeight={600}>
-                        {/*<RocketIllustration width={'100%'} height={'100%'} />*/}
                         {/* <img height={'100%'} src={laika} className="abspos"/> */}
                         <img width={'100%'} height={'100%'} src={laika} className="hoverscale"/>
                         {/* <div id="logo-spin-container">

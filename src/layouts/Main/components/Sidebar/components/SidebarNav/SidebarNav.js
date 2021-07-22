@@ -18,6 +18,7 @@ import huobi from 'images/huobi.png';
 import okex from 'images/okex.png';
 import xdai from 'images/xdai.png';
 import ftm from 'images/ftm.png';
+import kcc from 'images/kcc.svg';
 import coinsbit from 'images/coinsbit.png';
 import * as links from 'common/Links.js';
 
@@ -38,6 +39,7 @@ const SidebarNav = ({ pages, onClose }) => {
     'avax': avax,
     'xdai': xdai,
     'fantom': ftm,
+    'kcc': kcc,
     "cex": coinsbit
   }
 
@@ -139,9 +141,9 @@ const SidebarNav = ({ pages, onClose }) => {
             fullWidth
             component="a"
             target="blank"
-            href="/"
+            href="https://astroprotocol.com"
           >
-            Astro Farms<sup><sup style={{color:"white"}}>Soon</sup></sup>
+            Astro Farms<sup><sup style={{color:"white"}}>LIVE</sup></sup>
           </Button>
         </Box>
         <Box marginTop={1}>

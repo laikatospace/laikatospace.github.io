@@ -20,6 +20,7 @@ import okex from 'images/okex.png';
 import avax from 'images/avax.png';
 import ftm from 'images/ftm.png';
 import xdai from 'images/xdai.png';
+import kcc from 'images/kcc.svg';
 import coinsbit from 'images/coinsbit.png';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -212,10 +213,15 @@ const Topbar = ({
                     <img src={ftm} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>Fantom
                   </Link>
                 </MenuItem>
+                <MenuItem onClick={handleCloseBridge}>
+                  <Link underline="none" component="a" color="white" href={links.kccBridge} target="_blank">
+                    <img src={kcc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>KCC
+                  </Link>
+                </MenuItem>
               </Menu>
           </Box>
           <Box marginX={2}>
-            <Tooltip title="Coming Soon!">
+            <Tooltip title="Live Now!">
               <Button
                 variant="outlined"
                 color="secondary"
@@ -226,7 +232,7 @@ const Topbar = ({
                 aria-haspopup="true"
                 onClick={handleClick}
               >
-                <Link underline="none" component="a" href="/" color="secondary">
+                <Link underline="none" component="a" href="https://astroprotocol.com" color="secondary">
                   Astro Farms
                 </Link>
               </Button>
@@ -301,6 +307,11 @@ const Topbar = ({
               <MenuItem onClick={handleClose}>
                 <Link underline="none" component="a" color="white" href={links.fantomBuyLink} target="_blank">
                   <img src={ftm} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SpookySwap
+                </Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link underline="none" component="a" color="white" href={links.kccBuyLink} target="_blank">
+                  <img src={kcc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>KuSwap
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>

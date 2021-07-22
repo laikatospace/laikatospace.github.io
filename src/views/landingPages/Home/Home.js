@@ -15,6 +15,7 @@ import huobi from 'images/huobi.png';
 import okex from 'images/okex.png';
 import xdai from 'images/xdai.png';
 import ftm from 'images/ftm.png';
+import kcc from 'images/kcc.svg';
 import { useLottie, useLottieInteractivity } from "lottie-react";
 import rocketAnimation from "animations/rocketAnimation.json";
 
@@ -30,19 +31,19 @@ const Home = () => {
       mode: "scroll",
       actions: [
         {
-          visibility: [0, 0.1],
+          visibility: [0, 0.4],
           type: "stop",
           frames: [0],
         },
         {
-          visibility: [0.1, 0.7],
+          visibility: [0.4, 0.5],
           type: "seek",
-          frames: [0, 52],
+          frames: [0, 43],
         },
         {
-          visibility: [0.7, 1.0],
-          type: "stop",
-          frames: [52],
+          visibility: [0.5, 1.0],
+          type: "loop",
+          frames: [0, 140],
         },
       ],
     });
@@ -72,17 +73,18 @@ const Home = () => {
                       <div class="logo-spin-item" style={{"--d":"-18s", "--label":"AVALANCHE"}}><img src={avax} className="hover-animation-chain"/></div>
                       <div class="logo-spin-item" style={{"--d":"-21s", "--label":"xDai"}}><img src={xdai} className="hover-animation-chain"/></div>
                       <div class="logo-spin-item" style={{"--d":"-24s", "--label":"FANTOM"}}><img src={ftm} className="hover-animation-chain"/></div>
+                      <div class="logo-spin-item" style={{"--d":"-27s", "--label":"KCC"}}><img src={kcc} className="hover-animation-chain"/></div>
                     </div>
                 </Box>
             </Box>
             <Container>
                 <Numbers/>
             </Container>
-            {/* <Box position={'relative'} className={'rocket-animation'}>
+            <Box position={'relative'} className={'rocket-animation'}>
                 <Box height={'100%'} width={'100%'} maxWidth={400} m={6} style={{marginLeft: "39.5%", marginTop: "auto", marginBottom: "auto"}} data-aos={'fade-up'}>
                     {RocketAnimation}
                 </Box>
-            </Box> */}
+            </Box>
             <Container>
                 <Roadmap/>
             </Container>

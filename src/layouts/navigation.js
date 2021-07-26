@@ -209,11 +209,11 @@ export const pages = [
       },
       {
         title: 'SpookySwap Info (Chart)',
-        href: 'https://info.spiritswap.finance/pairs',
+        href: 'https://info.spookyswap.finance/pair/0x75e4614b1add3272e9f56cc00a3e19f32a86f41b',
       },
       {
-        title: 'SpiritSwap',
-        href: 'https://swap.spiritswap.finance/#/swap?outputCurrency=0xaeddc4a469ace97e90c605e3f52eb89620e305c0',
+        title: 'SpookySwap',
+        href: 'https://spookyswap.finance/swap?inputCurrency=FTM&outputCurrency=0xaeddc4a469ace97e90c605e3f52eb89620e305c0',
       }
     ],
   },

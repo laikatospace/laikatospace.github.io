@@ -29,8 +29,8 @@ export const xdaiExplorerLink = 'https://blockscout.com/xdai/mainnet/tokens/0xbD
 export const xdaiChartLink = 'https://info.honeyswap.org/#/pair/0xcfeec3103f4218fb88a65b16e4c9981a32b2462b';
 export const xdaiBuyLink = 'https://app.honeyswap.org/#/swap?inputCurrency=0xbd8ad53095d32b5e652b3fd26d61c5340126da10&outputCurrency=0xe91d153e0b41518a2ce8dd3d7944fa863463a97d&chainId=100';
 export const fantomExplorerLink = 'https://ftmscan.com/token/0xaeddc4a469ace97e90c605e3f52eb89620e305c0';
-export const fantomChartLink = 'https://info.spiritswap.finance/pair/0xaeddc4a469ace97e90c605e3f52eb89620e305c0';
-export const fantomBuyLink = 'https://swap.spiritswap.finance/#/swap?outputCurrency=0xaeddc4a469ace97e90c605e3f52eb89620e305c0';
+export const fantomChartLink = 'https://info.spookyswap.finance/pair/0x75e4614b1add3272e9f56cc00a3e19f32a86f41b';
+export const fantomBuyLink = 'https://spookyswap.finance/swap?inputCurrency=FTM&outputCurrency=0xaeddc4a469ace97e90c605e3f52eb89620e305c0';
 export const kccExplorerLink = 'https://explorer.kcc.io/en/token/0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8';
 export const kccChartLink = 'https://kuswap.info/#/pair/0x599411e6bed35495e5df2e68a9de2707b97bd323';
 export const kccBuyLink = 'https://kuswap.finance/#/swap?inputCurrency=0x4446fc4eb47f2f6586f9faab68b3498f86c07521&outputCurrency=0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8';

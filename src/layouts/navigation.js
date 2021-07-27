@@ -136,12 +136,12 @@ export const pages = [
         href: 'https://hecoinfo.com/address/0x7c598c96d02398d89fbcb9d41eab3df0c16f227d',
       },
       {
-        title: 'MakiSwap',
-        href: 'https://exchange.makiswap.com/#/swap?inputCurrency=0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f&outputCurrency=0x7c598c96d02398d89fbcb9d41eab3df0c16f227d',
+        title: 'MDEX',
+        href: 'https://ht.mdex.com/#/swap?inputCurrency=WHT&outputCurrency=0x7c598c96d02398d89fbcb9d41eab3df0c16f227d',
       },
       {
-        title: 'MakiSwap (Chart)',
-        href: 'https://info.makiswap.com/pairs',
+        title: 'MDEX (Chart)',
+        href: 'https://info.mdex.com/#/pair/0x8553ad8b1c1f0aadd39bcf26e8eb5bcc6807a990',
       }
     ],
   },

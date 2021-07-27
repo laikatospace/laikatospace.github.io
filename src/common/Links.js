@@ -17,8 +17,8 @@ export const ethExplorerLink = 'https://etherscan.io/token/0xcb58418aa51ba525aef
 export const ethChartLink = 'https://info.uniswap.org/#/pools/0x16811ea4c99b135e517d6fee60f76eebdd9f9a70';
 export const ethBuyLink = 'https://app.uniswap.org/#/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0xcb58418aa51ba525aef0fe474109c0354d844b7c';
 export const huobiExplorerLink = 'https://hecoinfo.com/token/0x7c598c96d02398d89fbcb9d41eab3df0c16f227d';
-export const huobiChartLink = 'https://info.makiswap.com/pairs';
-export const huobiBuyLink = 'https://exchange.makiswap.com/#/swap?inputCurrency=0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f&outputCurrency=0x7c598c96d02398d89fbcb9d41eab3df0c16f227d';
+export const huobiChartLink = 'https://info.mdex.com/#/pair/0x8553ad8b1c1f0aadd39bcf26e8eb5bcc6807a990';
+export const huobiBuyLink = 'https://ht.mdex.com/#/swap?inputCurrency=WHT&outputCurrency=0x7c598c96d02398d89fbcb9d41eab3df0c16f227d';
 export const okexExplorerLink = 'https://www.oklink.com/okexchain/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
 export const okexChartLink = 'https://info.pandaex.org/home';
 export const okexBuyLink = 'https://www.okex.com/dex-test/swap';

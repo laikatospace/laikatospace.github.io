@@ -177,7 +177,7 @@ const Hero = () => {
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
                             <Link underline="none" component="a" color="white" href={links.huobiBuyLink} target="_blank">
-                              <img src={huobi} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>MakiSwap
+                              <img src={huobi} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>MDEX
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>

@@ -19,9 +19,9 @@ export const ethBuyLink = 'https://app.uniswap.org/#/swap?inputCurrency=0xc02aaa
 export const huobiExplorerLink = 'https://hecoinfo.com/token/0x7c598c96d02398d89fbcb9d41eab3df0c16f227d';
 export const huobiChartLink = 'https://info.mdex.com/#/pair/0x8553ad8b1c1f0aadd39bcf26e8eb5bcc6807a990';
 export const huobiBuyLink = 'https://ht.mdex.com/#/swap?inputCurrency=WHT&outputCurrency=0x7c598c96d02398d89fbcb9d41eab3df0c16f227d';
-export const okexExplorerLink = 'https://www.oklink.com/okexchain/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e';
-export const okexChartLink = 'https://info.pandaex.org/home';
-export const okexBuyLink = 'https://www.okex.com/dex-test/swap';
+export const okexExplorerLink = 'https://www.oklink.com/okexchain/tokenAddr/ex1xsz6r02xhpw9cq55s0a7euhnucgsymj9frk2ch';
+export const okexChartLink = 'https://okinfo.cherryswap.net/pair/0xdb20087f5a96b216daaf3f131e2ac0f47c749e31';
+export const okexBuyLink = 'https://www.cherryswap.net/#/swap?inputCurrency=0x3405a1bd46b85c5c029483fbecf2f3e611026e45&outputCurrency=0x8f8526dbfd6e38e3d8307702ca8469bae6c56c15';
 export const avaxExplorerLink = 'https://cchain.explorer.avax.network/address/0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4/transactions';
 export const avaxChartLink = 'https://info.pangolin.exchange/#/pair/0x2af4b806c1f20a5dfb2089429d340aa3ff3c6a8c';
 export const avaxBuyLink = 'https://app.pangolin.exchange/#/swap?inputCurrency=FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z&amp;outputCurrency=0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4';
@@ -39,7 +39,7 @@ export const polygonBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x46
 export const harmonyBridge = 'https://bridge.harmony.one/busd';
 export const ethereumBridge = 'https://anyswap.exchange/bridge?inputCurrency=0xcb58418aa51ba525aef0fe474109c0354d844b7c&network=eth';
 export const huobiEcoBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x7c598c96d02398d89fbcb9d41eab3df0c16f227d&network=huobi';
-export const okexBridge = 'https://exchange.chainswap.com/';
+export const okexBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x3405a1bd46b85c5c029483fbecf2f3e611026e45&network=okex';
 export const avalancheBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4&network=avax';
 export const xdaiBridge = 'https://omni.xdaichain.com/bridge';
 export const fantomBridge = 'https://anyswap.exchange/bridge?inputCurrency=0xaeddc4a469ace97e90c605e3f52eb89620e305c0&network=fantom';

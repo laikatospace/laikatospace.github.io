@@ -182,7 +182,7 @@ const Hero = () => {
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
                             <Link underline="none" component="a" color="white" href={links.okexBuyLink} target="_blank">
-                              <img src={okex} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>OKExDex
+                              <img src={okex} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>CherrySwap
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>

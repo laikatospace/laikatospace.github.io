@@ -151,15 +151,15 @@ export const pages = [
     pages: [
       {
         title: 'OKLink (Explorer)',
-        href: 'https://www.oklink.com/okexchain/address/0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e',
+        href: 'https://www.oklink.com/okexchain/tokenAddr/ex1xsz6r02xhpw9cq55s0a7euhnucgsymj9frk2ch',
       },
       {
-        title: 'Pandaex Info (Chart)',
-        href: 'https://info.pandaex.org/home',
+        title: 'CherrySwap Info (Chart)',
+        href: 'https://okinfo.cherryswap.net/pair/0xdb20087f5a96b216daaf3f131e2ac0f47c749e31',
       },
       {
-        title: 'PandaSwap',
-        href: 'https://pandaex.org/#/swap?inputCurrency=0x8f8526dbfd6e38e3d8307702ca8469bae6c56c15&outputCurrency=0x0bffc5692960bb043d3216839bdd6e5e64ff1b4e',
+        title: 'CherrySwap',
+        href: 'https://www.cherryswap.net/#/swap?inputCurrency=0x3405a1bd46b85c5c029483fbecf2f3e611026e45&outputCurrency=0x8f8526dbfd6e38e3d8307702ca8469bae6c56c15',
       }
     ],
   },

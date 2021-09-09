@@ -34,43 +34,44 @@
 }
 
 .hover-animation-chain {
-  width: 3.25vw;
+  width: 3vw;
   transition: all 1s ease;
 
   &.bsc {
-    margin-right: 3.25vw;
+    margin-right: 3vw;
   }
 
   &.one {
-    margin-right: 3.25vw;
+    margin-right: 3vw;
   }
 
   &.matic {
-    margin-right: 3.25vw;
+    margin-right: 3vw;
   }
 
   &.eth {
-    margin-right: 3.25vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
   }
 
   &.huobi {
-    margin-right: 3.25vw;
+    margin-right: 3vw;
   }
 
   &.okex {
-    margin-right: 3.25vw;
+    margin-right: 3vw;
   }
 
   &.avax {
-    margin-right: 3.25vw;
+    margin-right: 3vw;
   }
 
   &.xdai {
-    margin-right: 3.25vw;
+    margin-right: 3vw;
   }
 
   &.ftm {
-    margin-right: 3.25vw;
+    margin-right: 3vw;
   }
 
   &:hover {
@@ -131,6 +132,10 @@
       margin-right: 5vw;
     }
 
+    &.kcc {
+      margin-right: 5vw;
+    }
+
     &:hover {
       transform: scale(1.1);
       transition: all 1s ease;
@@ -163,7 +168,7 @@
   margin: 0 auto;
   text-align: center;
   width: 15vw;
-  animation: orbit-animation 31s var(--d,0s) linear infinite;
+  animation: orbit-animation 33s var(--d,0s) linear infinite;
   // -webkit-animation-name: orbit-animation;
   // -webkit-animation-duration: 5s;
   // -webkit-animation-delay: var(--d,0s);

@@ -16,6 +16,7 @@ import okex from 'images/okex.png';
 import xdai from 'images/xdai.png';
 import ftm from 'images/ftm.png';
 import kcc from 'images/kcc.svg';
+import movr from 'images/movr.png';
 import { useLottie, useLottieInteractivity } from "lottie-react";
 import rocketAnimation from "animations/rocketAnimation.json";
 
@@ -74,6 +75,7 @@ const Home = () => {
                       <div class="logo-spin-item" style={{"--d":"-21s", "--label":"xDai"}}><img src={xdai} className="hover-animation-chain"/></div>
                       <div class="logo-spin-item" style={{"--d":"-24s", "--label":"FANTOM"}}><img src={ftm} className="hover-animation-chain"/></div>
                       <div class="logo-spin-item" style={{"--d":"-27s", "--label":"KCC"}}><img src={kcc} className="hover-animation-chain"/></div>
+                      <div class="logo-spin-item" style={{"--d":"-30s", "--label":"MOVR"}}><img src={movr} className="hover-animation-chain"/></div>
                     </div>
                 </Box>
             </Box>

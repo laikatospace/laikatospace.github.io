@@ -27,6 +27,7 @@ import okex from 'images/okex.png';
 import xdai from 'images/xdai.png';
 import ftm from 'images/ftm.png';
 import kcc from 'images/kcc.svg';
+import movr from 'images/movr.png';
 import coinsbit from 'images/coinsbit.png';
 import laika from '../../../../../images/laikacoin.png';
 import '../../../../../scss/main.scss';
@@ -70,6 +71,7 @@ const Hero = () => {
                           <img src={matic} className="hover-animation-chain matic"/>
                           <img src={avax} className="hover-animation-chain avax"/>
                           <img src={ftm} className="hover-animation-chain ftm"/>
+                          <img src={movr} className="hover-animation-chain movr"/>
                         </Box>
                         <Box>
                           <img src={ethereum} className="hover-animation-chain eth"/>
@@ -90,6 +92,7 @@ const Hero = () => {
                         <img src={xdai} className="hover-animation-chain xdai"/>
                         <img src={ftm} className="hover-animation-chain ftm"/>
                         <img src={kcc} className="hover-animation-chain kcc"/>
+                        <img src={movr} className="hover-animation-chain movr"/>
                       </Box>}
                         <Typography
                             variant="h2"
@@ -206,6 +209,11 @@ const Hero = () => {
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
+                            <Link underline="none" component="a" color="white" href={links.movrBuyLink} target="_blank">
+                              <img src={movr} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SolarBeam
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
                             <Link underline="none" component="a" color="white" href={links.coinsbitLink} target="_blank">
                               <img src={coinsbit} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>CoinsBit
                             </Link>
@@ -276,6 +284,11 @@ const Hero = () => {
                           <MenuItem onClick={handleClose2}>
                             <Link underline="none" component="a" color="white" href={links.kccBridge} target="_blank">
                               <img src={kcc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>KCC
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose2}>
+                            <Link underline="none" component="a" color="white" href={links.movrBridge} target="_blank">
+                              <img src={movr} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>MoonRiver
                             </Link>
                           </MenuItem>
                         </Menu>

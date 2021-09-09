@@ -15,6 +15,8 @@ import okex from 'images/okex.png';
 import avax from 'images/avax.png';
 import xdai from 'images/xdai.png';
 import ftm from 'images/ftm.png';
+import kcc from 'images/kcc.svg';
+import movr from 'images/movr.png';
 import coinsbit from 'images/coinsbit.png';
 import * as links from 'common/Links.js';
 
@@ -145,6 +147,16 @@ const Footer = () => {
           <MenuItem onClick={handleClose}>
             <Link underline="none" component="a" color="white" href={links.fantomBuyLink} target="_blank">
               <img src={ftm} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SpookySwap
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.kccBuyLink} target="_blank">
+              <img src={kcc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>KuSwap
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link underline="none" component="a" color="white" href={links.movrBuyLink} target="_blank">
+              <img src={movr} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SolarBeam
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>

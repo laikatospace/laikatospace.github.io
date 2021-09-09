@@ -236,6 +236,24 @@ export const pages = [
     ],
   },
   {
+    title: 'MoonRiver',
+    id: 'movr',
+    pages: [
+      {
+        title: 'MoonRiver Explorer',
+        href: 'https://blockscout.moonriver.moonbeam.network/address/0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A/transactions',
+      },
+      {
+        title: 'FreeRiver (Chart)',
+        href: 'https://charts.freeriver.exchange/?token=0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A',
+      },
+      {
+        title: 'SolarBeam (Buy)',
+        href: 'https://solarbeam.io/exchange/swap?outputCurrency=0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A',
+      }
+    ],
+  },
+  {
     title: 'CENTRALIZED EXCHANGES',
     id: 'cex',
     pages: [

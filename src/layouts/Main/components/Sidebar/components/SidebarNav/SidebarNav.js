@@ -19,6 +19,7 @@ import okex from 'images/okex.png';
 import xdai from 'images/xdai.png';
 import ftm from 'images/ftm.png';
 import kcc from 'images/kcc.svg';
+import movr from 'images/movr.png';
 import coinsbit from 'images/coinsbit.png';
 import * as links from 'common/Links.js';
 
@@ -40,6 +41,7 @@ const SidebarNav = ({ pages, onClose }) => {
     'xdai': xdai,
     'fantom': ftm,
     'kcc': kcc,
+    'movr': movr,
     "cex": coinsbit
   }
 

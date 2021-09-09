@@ -21,6 +21,7 @@ import avax from 'images/avax.png';
 import ftm from 'images/ftm.png';
 import xdai from 'images/xdai.png';
 import kcc from 'images/kcc.svg';
+import movr from 'images/movr.png';
 import coinsbit from 'images/coinsbit.png';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -218,6 +219,11 @@ const Topbar = ({
                     <img src={kcc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>KCC
                   </Link>
                 </MenuItem>
+                <MenuItem onClick={handleCloseBridge}>
+                  <Link underline="none" component="a" color="white" href={links.movrBridge} target="_blank">
+                    <img src={movr} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>MoonRiver
+                  </Link>
+                </MenuItem>
               </Menu>
           </Box>
           <Box marginX={2}>
@@ -312,6 +318,11 @@ const Topbar = ({
               <MenuItem onClick={handleClose}>
                 <Link underline="none" component="a" color="white" href={links.kccBuyLink} target="_blank">
                   <img src={kcc} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>KuSwap
+                </Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link underline="none" component="a" color="white" href={links.movrBuyLink} target="_blank">
+                  <img src={movr} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SolarBeam
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>

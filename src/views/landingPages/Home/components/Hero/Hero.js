@@ -210,7 +210,7 @@ const Hero = () => {
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
                             <Link underline="none" component="a" color="white" href={links.movrBuyLink} target="_blank">
-                              <img src={movr} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>SolarBeam
+                              <img src={movr} width="20vw" style={{marginRight: "5px", verticalAlign: "middle"}}/>MoonSwap
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>

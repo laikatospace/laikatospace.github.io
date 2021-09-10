@@ -36,7 +36,7 @@ export const kccChartLink = 'https://kuswap.info/#/pair/0x599411e6bed35495e5df2e
 export const kccBuyLink = 'https://kuswap.finance/#/swap?inputCurrency=0x4446fc4eb47f2f6586f9faab68b3498f86c07521&outputCurrency=0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8';
 export const movrExplorerLink = 'https://blockscout.moonriver.moonbeam.network/address/0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A/transactions';
 export const movrChartLink = 'https://charts.freeriver.exchange/?token=0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A';
-export const movrBuyLink = 'https://solarbeam.io/exchange/swap?outputCurrency=0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A';
+export const movrBuyLink = 'https://swap.moonfarm.in/#/swap?outputCurrency=0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A';
 
 export const polygonBridge = 'https://anyswap.exchange/#/bridge?inputCurrency=0x468003b688943977e6130f4f68f23aad939a1040&network=polygon';
 export const harmonyBridge = 'https://bridge.harmony.one/busd';

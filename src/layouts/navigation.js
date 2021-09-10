@@ -248,8 +248,8 @@ export const pages = [
         href: 'https://charts.freeriver.exchange/?token=0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A',
       },
       {
-        title: 'SolarBeam (Buy)',
-        href: 'https://solarbeam.io/exchange/swap?outputCurrency=0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A',
+        title: 'MoonSwap (Buy)',
+        href: 'https://swap.moonfarm.in/#/swap?outputCurrency=0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A',
       }
     ],
   },

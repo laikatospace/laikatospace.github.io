@@ -38,13 +38,13 @@ export const movrExplorerLink = 'https://blockscout.moonriver.moonbeam.network/a
 export const movrChartLink = 'https://charts.freeriver.exchange/?token=0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A';
 export const movrBuyLink = 'https://solarbeam.io/exchange/swap?outputCurrency=0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A';
 
-export const polygonBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x468003b688943977e6130f4f68f23aad939a1040&network=polygon';
+export const polygonBridge = 'https://anyswap.exchange/#/bridge?inputCurrency=0x468003b688943977e6130f4f68f23aad939a1040&network=polygon';
 export const harmonyBridge = 'https://bridge.harmony.one/busd';
-export const ethereumBridge = 'https://anyswap.exchange/bridge?inputCurrency=0xcb58418aa51ba525aef0fe474109c0354d844b7c&network=eth';
-export const huobiEcoBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x7c598c96d02398d89fbcb9d41eab3df0c16f227d&network=huobi';
-export const okexBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x3405a1bd46b85c5c029483fbecf2f3e611026e45&network=okex';
-export const avalancheBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4&network=avax';
+export const ethereumBridge = 'https://anyswap.exchange/#/bridge?inputCurrency=0xcb58418aa51ba525aef0fe474109c0354d844b7c&network=eth';
+export const huobiEcoBridge = 'https://anyswap.exchange/#/bridge?inputCurrency=0x7c598c96d02398d89fbcb9d41eab3df0c16f227d&network=huobi';
+export const okexBridge = 'https://anyswap.exchange/#/bridge?inputCurrency=0x3405a1bd46b85c5c029483fbecf2f3e611026e45&network=okex';
+export const avalancheBridge = 'https://anyswap.exchange/#/bridge?inputCurrency=0x1CcCA1cE62c62F7Be95d4A67722a8fDbed6EEcb4&network=avax';
 export const xdaiBridge = 'https://omni.xdaichain.com/bridge';
-export const fantomBridge = 'https://anyswap.exchange/bridge?inputCurrency=0xaeddc4a469ace97e90c605e3f52eb89620e305c0&network=fantom';
-export const kccBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8&network=kcs';
-export const movrBridge = 'https://anyswap.exchange/bridge?inputCurrency=0x65e66a61d0a8f1e686c2d6083ad611a10d84d97a&network=1285';
+export const fantomBridge = 'https://anyswap.exchange/#/bridge?inputCurrency=0xaeddc4a469ace97e90c605e3f52eb89620e305c0&network=fantom';
+export const kccBridge = 'https://anyswap.exchange/#/bridge?inputCurrency=0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8&network=kcs';
+export const movrBridge = 'https://anyswap.exchange/#/bridge?inputCurrency=0x65e66a61d0a8f1e686c2d6083ad611a10d84d97a&network=1285';

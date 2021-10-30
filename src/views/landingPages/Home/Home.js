@@ -79,9 +79,6 @@ const Home = () => {
                     </div>
                 </Box>
             </Box>
-            <Container>
-                <Numbers/>
-            </Container>
             <Box position={'relative'} className={'rocket-animation'}>
                 <Box height={'100%'} width={'100%'} maxWidth={400} m={6} style={{marginLeft: "39.5%", marginTop: "auto", marginBottom: "auto"}} data-aos={'fade-up'}>
                     {RocketAnimation}
